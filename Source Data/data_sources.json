@@ -1,0 +1,41 @@
+{
+  "generated_on": "2026-05-05",
+  "source_release": "DfE Explore Education Statistics: Pupil absence in schools in England, Academic year 2024/25",
+  "datasets": {
+    "absence_rates_by_geographic_level": {
+      "title": "Absence rates by geographic level",
+      "url": "https://explore-education-statistics.service.gov.uk/data-catalogue/data-set/d37f27c4-cca2-4274-97e9-1cdcb4ecad18/csv",
+      "raw_file": "absence_rates_by_geographic_level.csv",
+      "coverage": "Annual local authority, regional and national absence data, 2006/07 to 2024/25."
+    },
+    "absence_by_geographic_level_termly": {
+      "title": "Absence by geographic level - termly",
+      "url": "https://explore-education-statistics.service.gov.uk/data-catalogue/data-set/9bcb4217-4dba-4039-a754-a80ca681aedb/csv",
+      "raw_file": "absence_by_geographic_level_termly.csv",
+      "coverage": "Termly local authority, regional and national absence data, 2018/19 autumn term to 2024/25 summer term."
+    },
+    "absence_by_pupil_characteristics": {
+      "title": "Absence by pupil characteristics",
+      "url": "https://explore-education-statistics.service.gov.uk/data-catalogue/data-set/e2eb493a-dc95-41f4-96ef-b886c5cd2019/csv",
+      "raw_file": "absence_by_pupil_characteristics.csv",
+      "coverage": "Annual local authority, regional and national absence by pupil characteristic, 2018/19 to 2024/25."
+    },
+    "absence_by_ethnicity_and_fsm": {
+      "title": "Absence by pupil ethnicity and FSM eligibility",
+      "url": "https://explore-education-statistics.service.gov.uk/data-catalogue/data-set/26adfbe5-cfb5-40d9-bfa8-bdfe85995b34/csv",
+      "raw_file": "absence_by_ethnicity_and_fsm.csv",
+      "coverage": "National annual absence by ethnicity minor group and FSM eligibility, 2023/24 to 2024/25."
+    }
+  },
+  "curated_outputs": {
+    "dim_date": "Source Data/Curated/dim_date.csv",
+    "dim_term": "Source Data/Curated/dim_term.csv",
+    "dim_geography": "Source Data/Curated/dim_geography.csv",
+    "dim_school_type": "Source Data/Curated/dim_school_type.csv",
+    "dim_pupil_characteristic": "Source Data/Curated/dim_pupil_characteristic.csv",
+    "fact_attendance_annual": "Source Data/Curated/fact_attendance_annual.csv",
+    "fact_attendance_termly": "Source Data/Curated/fact_attendance_termly.csv",
+    "fact_pupil_characteristic_absence": "Source Data/Curated/fact_pupil_characteristic_absence.csv",
+    "fact_ethnicity_fsm_absence": "Source Data/Curated/fact_ethnicity_fsm_absence.csv"
+  }
+}

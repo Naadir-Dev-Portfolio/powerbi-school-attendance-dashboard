@@ -1,0 +1,106 @@
+table 'Dim Geography'
+	lineageTag: f6457e7a-afc8-4bbc-a7bb-4ac9a8672ab0
+
+	column GeographyKey
+		dataType: string
+		isKey
+		lineageTag: 6ab3371f-864e-4593-b580-c899d65e3319
+		summarizeBy: none
+		sourceColumn: GeographyKey
+
+	column GeographyLevel
+		dataType: string
+		lineageTag: 5652b739-a204-4923-a5c7-09b1285cb389
+		summarizeBy: none
+		sourceColumn: GeographyLevel
+
+	column GeographyName
+		dataType: string
+		lineageTag: 2a14d1a2-9b26-4392-a71f-a07169ac9e11
+		summarizeBy: none
+		sourceColumn: GeographyName
+
+	column CountryCode
+		dataType: string
+		lineageTag: aa421092-02b1-47df-b4c9-50341be8dd8e
+		summarizeBy: none
+		sourceColumn: CountryCode
+
+	column CountryName
+		dataType: string
+		lineageTag: 1c7af9bf-8830-493e-8c2f-8ea5191be653
+		summarizeBy: none
+		sourceColumn: CountryName
+
+	column RegionCode
+		dataType: string
+		lineageTag: 7297de3c-05a8-4b6b-bcab-c05d4455ddea
+		summarizeBy: none
+		sourceColumn: RegionCode
+
+	column RegionName
+		dataType: string
+		lineageTag: 11443e1f-fa14-4d8a-a728-59eacc0cd9e3
+		summarizeBy: none
+		sourceColumn: RegionName
+
+	column OldLocalAuthorityCode
+		dataType: string
+		lineageTag: e6ac353e-0233-4f17-8735-bd7e83178615
+		summarizeBy: none
+		sourceColumn: OldLocalAuthorityCode
+
+	column LocalAuthorityCode
+		dataType: string
+		lineageTag: 2f5569e3-5461-4031-9754-ee36626d8750
+		summarizeBy: none
+		sourceColumn: LocalAuthorityCode
+
+	column LocalAuthorityName
+		dataType: string
+		lineageTag: dd304c03-6658-48db-bf88-b1c1ce2ce3f8
+		summarizeBy: none
+		sourceColumn: LocalAuthorityName
+
+	column GeographyLevelSort
+		dataType: int64
+		lineageTag: dc07563e-831e-41aa-9cd5-90f74251d56b
+		summarizeBy: none
+		sourceColumn: GeographyLevelSort
+
+	column MapLocation
+		dataType: string
+		lineageTag: 680ecf41-3358-43ac-8c4e-3e533ca7e05c
+		summarizeBy: none
+		sourceColumn: MapLocation
+
+	column AreaLabel
+		dataType: string
+		lineageTag: 3c7378f7-67d0-45a6-8a1c-b05100b0e6bc
+		summarizeBy: none
+		sourceColumn: AreaLabel
+
+	partition 'Dim Geography' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(CuratedDataFolder & "\dim_geography.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Headers, {
+						{"GeographyKey", type text},
+						{"GeographyLevel", type text},
+						{"GeographyName", type text},
+						{"CountryCode", type text},
+						{"CountryName", type text},
+						{"RegionCode", type text},
+						{"RegionName", type text},
+						{"OldLocalAuthorityCode", type text},
+						{"LocalAuthorityCode", type text},
+						{"LocalAuthorityName", type text},
+						{"GeographyLevelSort", Int64.Type},
+						{"MapLocation", type text},
+						{"AreaLabel", type text}
+					}, "en-GB")
+				in
+					Typed
+

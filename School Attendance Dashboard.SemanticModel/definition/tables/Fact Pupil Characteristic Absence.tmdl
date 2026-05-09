@@ -1,0 +1,208 @@
+table 'Fact Pupil Characteristic Absence'
+	lineageTag: db0b643c-6aee-46ae-91ad-f2961d7270a3
+
+	measure 'Characteristic Absence Rate' = DIVIDE(SUM('Fact Pupil Characteristic Absence'[OverallAbsenceSessions]), SUM('Fact Pupil Characteristic Absence'[SessionsPossible]))
+		formatString: 0.0%
+		lineageTag: fd35a975-c6ea-498d-be53-fb4187c103b0
+
+	measure 'Characteristic Attendance Rate' = 1 - [Characteristic Absence Rate]
+		formatString: 0.0%
+		lineageTag: 2f6cf990-6504-43d0-b0a5-974cc670b39b
+
+	measure 'Characteristic Persistent Absence Rate' = DIVIDE(SUM('Fact Pupil Characteristic Absence'[PersistentAbsentees]), SUM('Fact Pupil Characteristic Absence'[Enrolments]))
+		formatString: 0.0%
+		lineageTag: ca47cbe5-4db9-4713-a72e-07a51b539699
+
+	measure 'Characteristic Severe Absence Rate' = DIVIDE(SUM('Fact Pupil Characteristic Absence'[SevereAbsentees]), SUM('Fact Pupil Characteristic Absence'[Enrolments]))
+		formatString: 0.0%
+		lineageTag: 5e502697-96d3-4088-9490-14e7758fe8c0
+
+	measure 'Characteristic Persistent Risk Index' =
+			DIVIDE(
+			    [Characteristic Persistent Absence Rate],
+			    CALCULATE(
+			        [Characteristic Persistent Absence Rate],
+			        REMOVEFILTERS('Dim Pupil Characteristic')
+			    )
+			)
+		formatString: 0.00x
+		lineageTag: 2a0d6823-9e46-4537-9126-8237c7959ad5
+
+	measure 'Char National Persistent Absence Rate' =
+			CALCULATE(
+				DIVIDE(SUM('Fact Pupil Characteristic Absence'[PersistentAbsentees]), SUM('Fact Pupil Characteristic Absence'[Enrolments])),
+				REMOVEFILTERS('Dim Geography'),
+				REMOVEFILTERS('Dim School Type'),
+				'Dim Geography'[GeographyLevel] = "National",
+				'Dim School Type'[SchoolType] = "Total"
+			)
+		formatString: 0.0%
+		lineageTag: a1f10e02-2001-4001-9001-000000000001
+
+	measure 'Char National Latest Persistent Absence Rate' =
+			VAR LatestYear =
+				CALCULATE(MAX('Dim Date'[AcademicYearSort]), ALL('Dim Date'))
+			RETURN
+				CALCULATE(
+					DIVIDE(SUM('Fact Pupil Characteristic Absence'[PersistentAbsentees]), SUM('Fact Pupil Characteristic Absence'[Enrolments])),
+					FILTER(ALL('Dim Date'), 'Dim Date'[AcademicYearSort] = LatestYear),
+					REMOVEFILTERS('Dim Geography'),
+					REMOVEFILTERS('Dim School Type'),
+					'Dim Geography'[GeographyLevel] = "National",
+					'Dim School Type'[SchoolType] = "Total"
+				)
+		formatString: 0.0%
+		lineageTag: a1f10e02-2002-4001-9001-000000000002
+
+	column AcademicYearKey
+		dataType: string
+		isHidden
+		lineageTag: 8b6b825f-1298-4a19-a6eb-c14c3025ef0e
+		summarizeBy: none
+		sourceColumn: AcademicYearKey
+
+	column AcademicYearSort
+		dataType: int64
+		isHidden
+		lineageTag: 6e61f218-b3df-4831-a7da-739c7da4bdc3
+		summarizeBy: none
+		sourceColumn: AcademicYearSort
+
+	column GeographyKey
+		dataType: string
+		isHidden
+		lineageTag: 428385fe-2495-4fde-8a0f-bb7c44b9fa95
+		summarizeBy: none
+		sourceColumn: GeographyKey
+
+	column SchoolTypeKey
+		dataType: string
+		isHidden
+		lineageTag: 2662ba72-a12d-4c8d-875e-1241184e59b6
+		summarizeBy: none
+		sourceColumn: SchoolTypeKey
+
+	column CharacteristicKey
+		dataType: string
+		isHidden
+		lineageTag: c6782ea9-1e96-4bdd-99b6-8a6a8b84d5f1
+		summarizeBy: none
+		sourceColumn: CharacteristicKey
+
+	column CharacteristicGroup
+		dataType: string
+		isHidden
+		lineageTag: de9a528b-468d-4bd9-87a3-a36e62b7fdc8
+		summarizeBy: none
+		sourceColumn: CharacteristicGroup
+
+	column Characteristic
+		dataType: string
+		isHidden
+		lineageTag: 5f18b723-27ff-48ae-ac98-955dd568a476
+		summarizeBy: none
+		sourceColumn: Characteristic
+
+	column EducationPhase
+		dataType: string
+		isHidden
+		lineageTag: a2c8e0ff-ce8c-47ec-ad84-fe61df139c22
+		summarizeBy: none
+		sourceColumn: EducationPhase
+
+	column Enrolments
+		dataType: double
+		lineageTag: edbacb9a-cb70-4ac4-b558-25405f41445a
+		summarizeBy: none
+		sourceColumn: Enrolments
+
+	column SessionsPossible
+		dataType: double
+		lineageTag: c4a14eeb-c618-4e81-80b2-7b0c9c400934
+		summarizeBy: none
+		sourceColumn: SessionsPossible
+
+	column OverallAbsenceSessions
+		dataType: double
+		lineageTag: e852f151-3e57-41d4-a399-c6fe472d170a
+		summarizeBy: none
+		sourceColumn: OverallAbsenceSessions
+
+	column AuthorisedAbsenceSessions
+		dataType: double
+		lineageTag: 0f94cd7d-3165-4277-aca2-6ec486b4e289
+		summarizeBy: none
+		sourceColumn: AuthorisedAbsenceSessions
+
+	column UnauthorisedAbsenceSessions
+		dataType: double
+		lineageTag: 8cec7577-eeec-47d8-bc62-8da40d274ad6
+		summarizeBy: none
+		sourceColumn: UnauthorisedAbsenceSessions
+
+	column OverallAbsenceRateSource
+		dataType: double
+		lineageTag: b3aec2aa-df11-4b94-a3cc-fe19be3093f8
+		summarizeBy: none
+		sourceColumn: OverallAbsenceRateSource
+
+	column AttendanceRateSource
+		dataType: double
+		lineageTag: cdf1fe0b-2f79-4376-8345-92d2a3aad350
+		summarizeBy: none
+		sourceColumn: AttendanceRateSource
+
+	column PersistentAbsentees
+		dataType: double
+		lineageTag: 123eb508-2d49-438b-8fd0-a06394800a1b
+		summarizeBy: none
+		sourceColumn: PersistentAbsentees
+
+	column PersistentAbsenceRateSource
+		dataType: double
+		lineageTag: 1ab1573e-9fe5-4949-bec3-50d9d4bf5b5d
+		summarizeBy: none
+		sourceColumn: PersistentAbsenceRateSource
+
+	column SevereAbsentees
+		dataType: double
+		lineageTag: 5ab3201a-f621-453f-a738-e83a1bffef02
+		summarizeBy: none
+		sourceColumn: SevereAbsentees
+
+	column SevereAbsenceRateSource
+		dataType: double
+		lineageTag: 5aeb1381-ba74-4925-bc53-e782e90203c8
+		summarizeBy: none
+		sourceColumn: SevereAbsenceRateSource
+
+	partition 'Fact Pupil Characteristic Absence' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(CuratedDataFolder & "\fact_pupil_characteristic_absence.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Headers, {
+						{"AcademicYearKey", type text},
+						{"AcademicYearSort", Int64.Type},
+						{"GeographyKey", type text},
+						{"SchoolTypeKey", type text},
+						{"CharacteristicKey", type text},
+						{"CharacteristicGroup", type text},
+						{"Characteristic", type text},
+						{"EducationPhase", type text},
+						{"Enrolments", type number},
+						{"SessionsPossible", type number},
+						{"OverallAbsenceSessions", type number},
+						{"AuthorisedAbsenceSessions", type number},
+						{"UnauthorisedAbsenceSessions", type number},
+						{"OverallAbsenceRateSource", type number},
+						{"AttendanceRateSource", type number},
+						{"PersistentAbsentees", type number},
+						{"PersistentAbsenceRateSource", type number},
+						{"SevereAbsentees", type number},
+						{"SevereAbsenceRateSource", type number}
+					}, "en-GB")
+				in
+					Typed
+

@@ -1,0 +1,36 @@
+table 'Dim School Type'
+	lineageTag: dfba7216-b6e6-4999-9112-076efe481c45
+
+	column SchoolTypeKey
+		dataType: string
+		isKey
+		lineageTag: 7749094c-0bd9-4017-ba9b-f76bf33fa47b
+		summarizeBy: none
+		sourceColumn: SchoolTypeKey
+
+	column SchoolType
+		dataType: string
+		lineageTag: 5d269bfb-5b26-4b40-8afe-520ced4ba465
+		summarizeBy: none
+		sourceColumn: SchoolType
+
+	column SchoolTypeSort
+		dataType: int64
+		lineageTag: 6da9bfee-bfd4-4666-899d-08103b41a739
+		summarizeBy: none
+		sourceColumn: SchoolTypeSort
+
+	partition 'Dim School Type' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(CuratedDataFolder & "\dim_school_type.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Headers, {
+						{"SchoolTypeKey", type text},
+						{"SchoolType", type text},
+						{"SchoolTypeSort", Int64.Type}
+					}, "en-GB")
+				in
+					Typed
+

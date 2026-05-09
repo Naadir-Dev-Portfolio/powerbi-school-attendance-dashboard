@@ -1,0 +1,64 @@
+table 'Dim Date'
+	lineageTag: 72608c1f-9203-4875-80ee-7204a7cdc6d9
+
+	column AcademicYearKey
+		dataType: string
+		isKey
+		lineageTag: f07294a6-111a-440a-a82b-1b0e143ad97b
+		summarizeBy: none
+		sourceColumn: AcademicYearKey
+
+	column AcademicYearSort
+		dataType: int64
+		lineageTag: 9e9f9312-0c95-4c20-9b0c-6fe279bd6d72
+		summarizeBy: none
+		sourceColumn: AcademicYearSort
+
+	column AcademicYearStart
+		dataType: int64
+		lineageTag: 00bb6e55-4143-4eaa-9678-f9d7e4bceb2e
+		summarizeBy: none
+		sourceColumn: AcademicYearStart
+
+	column AcademicYearEnd
+		dataType: int64
+		lineageTag: a42b0a81-8ab7-4410-b9a3-8fdc0a3b7ea3
+		summarizeBy: none
+		sourceColumn: AcademicYearEnd
+
+	column AcademicYearLabel
+		dataType: string
+		lineageTag: 9e76984e-532a-4a16-b333-42d7af52b570
+		summarizeBy: none
+		sourceColumn: AcademicYearLabel
+
+	column PostPandemicFlag
+		dataType: string
+		lineageTag: a05731ce-dcda-4c44-a72e-cff673372915
+		summarizeBy: none
+		sourceColumn: PostPandemicFlag
+
+	column IsLatestAcademicYear
+		dataType: boolean
+		lineageTag: b9113939-4f74-443c-bc18-54c684a20584
+		summarizeBy: none
+		sourceColumn: IsLatestAcademicYear
+
+	partition 'Dim Date' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(CuratedDataFolder & "\dim_date.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Headers, {
+						{"AcademicYearKey", type text},
+						{"AcademicYearSort", Int64.Type},
+						{"AcademicYearStart", Int64.Type},
+						{"AcademicYearEnd", Int64.Type},
+						{"AcademicYearLabel", type text},
+						{"PostPandemicFlag", type text},
+						{"IsLatestAcademicYear", type logical}
+					}, "en-GB")
+				in
+					Typed
+

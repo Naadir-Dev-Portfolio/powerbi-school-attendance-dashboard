@@ -1,0 +1,638 @@
+table 'Fact Attendance Annual'
+	lineageTag: 6213c80a-3465-403f-a26b-b5c5fedd0491
+
+	measure 'Pupil Enrolments' = SUM('Fact Attendance Annual'[Enrolments])
+		formatString: #,##0
+		lineageTag: 9e2027fe-7b23-4bca-a17d-06bd214b5696
+
+	measure Schools = SUM('Fact Attendance Annual'[NumSchools])
+		formatString: #,##0
+		lineageTag: e26ed93d-40d3-4580-a05d-5f96b9d373c6
+
+	measure 'Absence Rate' = DIVIDE(SUM('Fact Attendance Annual'[OverallAbsenceSessions]), SUM('Fact Attendance Annual'[SessionsPossible]))
+		formatString: 0.0%
+		lineageTag: d8bbe789-0be8-4ee8-b70e-b786258154da
+
+	measure 'Attendance Rate' = 1 - [Absence Rate]
+		formatString: 0.0%
+		lineageTag: 5302c779-0cf3-440f-a84c-549da1d4df68
+
+	measure 'Authorised Absence Rate' = DIVIDE(SUM('Fact Attendance Annual'[AuthorisedAbsenceSessions]), SUM('Fact Attendance Annual'[SessionsPossible]))
+		formatString: 0.0%
+		lineageTag: 66cdedcf-b4d0-4ad5-9a0f-459df01432bd
+
+	measure 'Unauthorised Absence Rate' = DIVIDE(SUM('Fact Attendance Annual'[UnauthorisedAbsenceSessions]), SUM('Fact Attendance Annual'[SessionsPossible]))
+		formatString: 0.0%
+		lineageTag: d302f642-28bb-443a-8fbd-636871f12333
+
+	measure 'Persistent Absentees' = SUM('Fact Attendance Annual'[PersistentAbsentees])
+		formatString: #,##0
+		lineageTag: 2e901ebd-37fd-49a0-be06-65de8a482f6d
+
+	measure 'Persistent Absence Rate' = DIVIDE(SUM('Fact Attendance Annual'[PersistentAbsentees]), SUM('Fact Attendance Annual'[Enrolments]))
+		formatString: 0.0%
+		lineageTag: 86742825-b031-4e17-81df-31adbbd6ff88
+
+	measure 'Severe Absentees' = SUM('Fact Attendance Annual'[SevereAbsentees])
+		formatString: #,##0
+		lineageTag: 843a4323-9a09-4111-b770-757aaee1aa64
+
+	measure 'Severe Absence Rate' = DIVIDE(SUM('Fact Attendance Annual'[SevereAbsentees]), SUM('Fact Attendance Annual'[Enrolments]))
+		formatString: 0.0%
+		lineageTag: fe92706e-2794-4a96-8ae6-07a25d4148a0
+
+	measure 'Illness Absence Rate' = AVERAGE('Fact Attendance Annual'[IllnessAbsenceRateSource])
+		formatString: 0.0%
+		lineageTag: 5bf46cf0-092b-4085-8293-bfd00fbd9c41
+
+	measure 'Unauthorised Holiday Absence Rate' = AVERAGE('Fact Attendance Annual'[UnauthorisedHolidayAbsenceRateSource])
+		formatString: 0.0%
+		lineageTag: aab98cc7-b533-4168-921c-a5bd3db76073
+
+	measure 'Latest Academic Year Sort' = CALCULATE(MAX('Dim Date'[AcademicYearSort]), REMOVEFILTERS('Dim Date'))
+		formatString: 0
+		lineageTag: e8411ef8-08b8-4a42-a2fb-58b285ebd1d8
+
+	measure 'Latest Attendance Rate' =
+			VAR LatestYear = [Latest Academic Year Sort]
+			RETURN
+			    CALCULATE(
+			        [Attendance Rate],
+			        REMOVEFILTERS('Dim Date'),
+			        'Dim Date'[AcademicYearSort] = LatestYear
+			    )
+		formatString: 0.0%
+		lineageTag: 782e5370-6ca2-4bd3-a791-701208f3651c
+
+	measure 'Latest Absence Rate' =
+			VAR LatestYear = [Latest Academic Year Sort]
+			RETURN
+			    CALCULATE(
+			        [Absence Rate],
+			        REMOVEFILTERS('Dim Date'),
+			        'Dim Date'[AcademicYearSort] = LatestYear
+			    )
+		formatString: 0.0%
+		lineageTag: 5d9ab6ea-f6a5-4e8d-a68d-38abd015984c
+
+	measure 'Latest Persistent Absence Rate' =
+			VAR LatestYear = [Latest Academic Year Sort]
+			RETURN
+			    CALCULATE(
+			        [Persistent Absence Rate],
+			        REMOVEFILTERS('Dim Date'),
+			        'Dim Date'[AcademicYearSort] = LatestYear
+			    )
+		formatString: 0.0%
+		lineageTag: eca478eb-3236-4a72-9afe-abfb275ca05c
+
+	measure 'Latest Severe Absence Rate' =
+			VAR LatestYear = [Latest Academic Year Sort]
+			RETURN
+			    CALCULATE(
+			        [Severe Absence Rate],
+			        REMOVEFILTERS('Dim Date'),
+			        'Dim Date'[AcademicYearSort] = LatestYear
+			    )
+		formatString: 0.0%
+		lineageTag: a18ebbc1-fe38-4d84-adeb-0bf8cea7bf41
+
+	measure 'Absence Rate YoY Change' =
+			VAR CurrentYear = MAX('Dim Date'[AcademicYearSort])
+			VAR CurrentValue = [Absence Rate]
+			VAR PreviousValue =
+			    CALCULATE(
+			        [Absence Rate],
+			        REMOVEFILTERS('Dim Date'),
+			        'Dim Date'[AcademicYearSort] = CurrentYear - 1
+			    )
+			RETURN
+			    (CurrentValue - PreviousValue) * 100
+		formatString: +0.0;-0.0;0.0
+		lineageTag: 736b4222-b59b-4f5f-9e12-b4758458baf9
+
+	measure 'Persistent Absence YoY Change' =
+			VAR CurrentYear = MAX('Dim Date'[AcademicYearSort])
+			VAR CurrentValue = [Persistent Absence Rate]
+			VAR PreviousValue =
+			    CALCULATE(
+			        [Persistent Absence Rate],
+			        REMOVEFILTERS('Dim Date'),
+			        'Dim Date'[AcademicYearSort] = CurrentYear - 1
+			    )
+			RETURN
+			    (CurrentValue - PreviousValue) * 100
+		formatString: +0.0;-0.0;0.0
+		lineageTag: c5d000ef-6ab5-4968-9fe1-b8c26519b151
+
+	measure 'Latest Absence Rate YoY Change' =
+			VAR LatestYear = [Latest Academic Year Sort]
+			VAR CurrentValue =
+			    CALCULATE([Absence Rate], REMOVEFILTERS('Dim Date'), 'Dim Date'[AcademicYearSort] = LatestYear)
+			VAR PreviousValue =
+			    CALCULATE([Absence Rate], REMOVEFILTERS('Dim Date'), 'Dim Date'[AcademicYearSort] = LatestYear - 1)
+			RETURN
+			    (CurrentValue - PreviousValue) * 100
+		formatString: +0.0;-0.0;0.0
+		lineageTag: 39b882be-9205-4f10-9ac4-d2b7f7b57698
+
+	measure 'Latest Persistent Absence YoY Change' =
+			VAR LatestYear = [Latest Academic Year Sort]
+			VAR CurrentValue =
+			    CALCULATE([Persistent Absence Rate], REMOVEFILTERS('Dim Date'), 'Dim Date'[AcademicYearSort] = LatestYear)
+			VAR PreviousValue =
+			    CALCULATE([Persistent Absence Rate], REMOVEFILTERS('Dim Date'), 'Dim Date'[AcademicYearSort] = LatestYear - 1)
+			RETURN
+			    (CurrentValue - PreviousValue) * 100
+		formatString: +0.0;-0.0;0.0
+		lineageTag: bc65b53a-8061-4948-942a-8c9fbcf4bfc9
+
+	measure 'Trend Flag' =
+			VAR Change = [Latest Absence Rate YoY Change]
+			RETURN
+			    SWITCH(
+			        TRUE(),
+			        ISBLANK(Change), "No comparison",
+			        Change > 0.25, "Worsening",
+			        Change < -0.25, "Improving",
+			        "Stabilising"
+			    )
+		lineageTag: 33b8efd6-699e-480a-8e84-100bbc9b7c2e
+
+	measure 'Persistent Absence Pressure Flag' =
+			VAR Rate = [Latest Persistent Absence Rate]
+			RETURN
+			    SWITCH(
+			        TRUE(),
+			        ISBLANK(Rate), "No data",
+			        Rate >= 0.25, "Serious risk",
+			        Rate >= 0.20, "High pressure",
+			        Rate >= 0.15, "Elevated",
+			        "Lower pressure"
+			    )
+		lineageTag: 4c7510cf-a814-464e-b4c0-931c588d266a
+
+	measure 'Local Authority Persistent Absence Rank' =
+			VAR LatestYear = [Latest Academic Year Sort]
+			RETURN
+			    IF(
+			        SELECTEDVALUE('Dim Geography'[GeographyLevel]) = "Local authority",
+			        RANKX(
+			            FILTER(
+			                ALLSELECTED('Dim Geography'[GeographyKey], 'Dim Geography'[GeographyName], 'Dim Geography'[GeographyLevel]),
+			                'Dim Geography'[GeographyLevel] = "Local authority"
+			            ),
+			            CALCULATE([Persistent Absence Rate], REMOVEFILTERS('Dim Date'), 'Dim Date'[AcademicYearSort] = LatestYear),
+			            ,
+			            DESC,
+			            Dense
+			        )
+			    )
+		formatString: 0
+		lineageTag: 2f67f229-2ad6-47c2-9e42-05a8203b9924
+
+	measure 'Decision Maker Takeaway' =
+			
+			VAR AttendanceTrend = [Trend Flag]
+			VAR PersistentRate = [Latest Persistent Absence Rate]
+			VAR SevereRate = [Latest Severe Absence Rate]
+			RETURN
+			    "Attendance is "
+			        & LOWER ( AttendanceTrend )
+			        & "; latest persistent absence is "
+			        & FORMAT ( PersistentRate, "0.0%" )
+			        & " and severe absence is "
+			        & FORMAT ( SevereRate, "0.0%" )
+			        & "."
+		lineageTag: 8f60ba78-1726-4782-a6f4-00d07eb32d51
+
+	measure 'National Pupil Enrolments' =
+			CALCULATE(
+				SUM('Fact Attendance Annual'[Enrolments]),
+				REMOVEFILTERS('Dim Geography'),
+				REMOVEFILTERS('Dim School Type'),
+				'Dim Geography'[GeographyLevel] = "National",
+				'Dim School Type'[SchoolType] = "Total"
+			)
+		formatString: #,##0
+		lineageTag: a1f10e02-1001-4001-9001-000000000001
+
+	measure 'National Latest Pupil Enrolments' =
+			VAR LatestYear =
+				CALCULATE(MAX('Dim Date'[AcademicYearSort]), ALL('Dim Date'))
+			RETURN
+				CALCULATE(
+					SUM('Fact Attendance Annual'[Enrolments]),
+					FILTER(ALL('Dim Date'), 'Dim Date'[AcademicYearSort] = LatestYear),
+					REMOVEFILTERS('Dim Geography'),
+					REMOVEFILTERS('Dim School Type'),
+					'Dim Geography'[GeographyLevel] = "National",
+					'Dim School Type'[SchoolType] = "Total"
+				)
+		formatString: #,##0
+		lineageTag: a1f10e02-1002-4001-9001-000000000002
+
+	measure 'National Schools' =
+			CALCULATE(
+				SUM('Fact Attendance Annual'[NumSchools]),
+				REMOVEFILTERS('Dim Geography'),
+				REMOVEFILTERS('Dim School Type'),
+				'Dim Geography'[GeographyLevel] = "National",
+				'Dim School Type'[SchoolType] = "Total"
+			)
+		formatString: #,##0
+		lineageTag: a1f10e02-1003-4001-9001-000000000003
+
+	measure 'National Latest Schools' =
+			VAR LatestYear =
+				CALCULATE(MAX('Dim Date'[AcademicYearSort]), ALL('Dim Date'))
+			RETURN
+				CALCULATE(
+					SUM('Fact Attendance Annual'[NumSchools]),
+					FILTER(ALL('Dim Date'), 'Dim Date'[AcademicYearSort] = LatestYear),
+					REMOVEFILTERS('Dim Geography'),
+					REMOVEFILTERS('Dim School Type'),
+					'Dim Geography'[GeographyLevel] = "National",
+					'Dim School Type'[SchoolType] = "Total"
+				)
+		formatString: #,##0
+		lineageTag: a1f10e02-1004-4001-9001-000000000004
+
+	measure 'National Absence Rate' =
+			CALCULATE(
+				DIVIDE(SUM('Fact Attendance Annual'[OverallAbsenceSessions]), SUM('Fact Attendance Annual'[SessionsPossible])),
+				REMOVEFILTERS('Dim Geography'),
+				REMOVEFILTERS('Dim School Type'),
+				'Dim Geography'[GeographyLevel] = "National",
+				'Dim School Type'[SchoolType] = "Total"
+			)
+		formatString: 0.0%
+		lineageTag: a1f10e02-1010-4001-9001-000000000010
+
+	measure 'National Persistent Absence Rate' =
+			CALCULATE(
+				DIVIDE(SUM('Fact Attendance Annual'[PersistentAbsentees]), SUM('Fact Attendance Annual'[Enrolments])),
+				REMOVEFILTERS('Dim Geography'),
+				REMOVEFILTERS('Dim School Type'),
+				'Dim Geography'[GeographyLevel] = "National",
+				'Dim School Type'[SchoolType] = "Total"
+			)
+		formatString: 0.0%
+		lineageTag: a1f10e02-1011-4001-9001-000000000011
+
+	measure 'National Severe Absence Rate' =
+			CALCULATE(
+				DIVIDE(SUM('Fact Attendance Annual'[SevereAbsentees]), SUM('Fact Attendance Annual'[Enrolments])),
+				REMOVEFILTERS('Dim Geography'),
+				REMOVEFILTERS('Dim School Type'),
+				'Dim Geography'[GeographyLevel] = "National",
+				'Dim School Type'[SchoolType] = "Total"
+			)
+		formatString: 0.0%
+		lineageTag: a1f10e02-1012-4001-9001-000000000012
+
+	measure 'National Attendance Rate' = 1 - [National Absence Rate]
+		formatString: 0.0%
+		lineageTag: a1f10e02-1013-4001-9001-000000000013
+
+	measure 'National Latest Absence Rate' =
+			VAR LatestYear =
+				CALCULATE(MAX('Dim Date'[AcademicYearSort]), ALL('Dim Date'))
+			RETURN
+				CALCULATE(
+					DIVIDE(SUM('Fact Attendance Annual'[OverallAbsenceSessions]), SUM('Fact Attendance Annual'[SessionsPossible])),
+					FILTER(ALL('Dim Date'), 'Dim Date'[AcademicYearSort] = LatestYear),
+					REMOVEFILTERS('Dim Geography'),
+					REMOVEFILTERS('Dim School Type'),
+					'Dim Geography'[GeographyLevel] = "National",
+					'Dim School Type'[SchoolType] = "Total"
+				)
+		formatString: 0.0%
+		lineageTag: a1f10e02-1020-4001-9001-000000000020
+
+	measure 'National Latest Persistent Absence Rate' =
+			VAR LatestYear =
+				CALCULATE(MAX('Dim Date'[AcademicYearSort]), ALL('Dim Date'))
+			RETURN
+				CALCULATE(
+					DIVIDE(SUM('Fact Attendance Annual'[PersistentAbsentees]), SUM('Fact Attendance Annual'[Enrolments])),
+					FILTER(ALL('Dim Date'), 'Dim Date'[AcademicYearSort] = LatestYear),
+					REMOVEFILTERS('Dim Geography'),
+					REMOVEFILTERS('Dim School Type'),
+					'Dim Geography'[GeographyLevel] = "National",
+					'Dim School Type'[SchoolType] = "Total"
+				)
+		formatString: 0.0%
+		lineageTag: a1f10e02-1021-4001-9001-000000000021
+
+	measure 'National Latest Severe Absence Rate' =
+			VAR LatestYear =
+				CALCULATE(MAX('Dim Date'[AcademicYearSort]), ALL('Dim Date'))
+			RETURN
+				CALCULATE(
+					DIVIDE(SUM('Fact Attendance Annual'[SevereAbsentees]), SUM('Fact Attendance Annual'[Enrolments])),
+					FILTER(ALL('Dim Date'), 'Dim Date'[AcademicYearSort] = LatestYear),
+					REMOVEFILTERS('Dim Geography'),
+					REMOVEFILTERS('Dim School Type'),
+					'Dim Geography'[GeographyLevel] = "National",
+					'Dim School Type'[SchoolType] = "Total"
+				)
+		formatString: 0.0%
+		lineageTag: a1f10e02-1022-4001-9001-000000000022
+
+	measure 'National Latest Attendance Rate' = 1 - [National Latest Absence Rate]
+		formatString: 0.0%
+		lineageTag: a1f10e02-1023-4001-9001-000000000023
+
+	measure 'National Latest Absence Rate YoY Change' =
+			VAR LatestYear =
+				CALCULATE(MAX('Dim Date'[AcademicYearSort]), ALL('Dim Date'))
+			VAR Cur =
+				CALCULATE(
+					DIVIDE(SUM('Fact Attendance Annual'[OverallAbsenceSessions]), SUM('Fact Attendance Annual'[SessionsPossible])),
+					FILTER(ALL('Dim Date'), 'Dim Date'[AcademicYearSort] = LatestYear),
+					REMOVEFILTERS('Dim Geography'),
+					REMOVEFILTERS('Dim School Type'),
+					'Dim Geography'[GeographyLevel] = "National",
+					'Dim School Type'[SchoolType] = "Total"
+				)
+			VAR Prev =
+				CALCULATE(
+					DIVIDE(SUM('Fact Attendance Annual'[OverallAbsenceSessions]), SUM('Fact Attendance Annual'[SessionsPossible])),
+					FILTER(ALL('Dim Date'), 'Dim Date'[AcademicYearSort] = LatestYear - 1),
+					REMOVEFILTERS('Dim Geography'),
+					REMOVEFILTERS('Dim School Type'),
+					'Dim Geography'[GeographyLevel] = "National",
+					'Dim School Type'[SchoolType] = "Total"
+				)
+			RETURN (Cur - Prev) * 100
+		formatString: +0.0;-0.0;0.0
+		lineageTag: a1f10e02-1030-4001-9001-000000000030
+
+	measure 'National Latest Persistent Absence YoY Change' =
+			VAR LatestYear =
+				CALCULATE(MAX('Dim Date'[AcademicYearSort]), ALL('Dim Date'))
+			VAR Cur =
+				CALCULATE(
+					DIVIDE(SUM('Fact Attendance Annual'[PersistentAbsentees]), SUM('Fact Attendance Annual'[Enrolments])),
+					FILTER(ALL('Dim Date'), 'Dim Date'[AcademicYearSort] = LatestYear),
+					REMOVEFILTERS('Dim Geography'),
+					REMOVEFILTERS('Dim School Type'),
+					'Dim Geography'[GeographyLevel] = "National",
+					'Dim School Type'[SchoolType] = "Total"
+				)
+			VAR Prev =
+				CALCULATE(
+					DIVIDE(SUM('Fact Attendance Annual'[PersistentAbsentees]), SUM('Fact Attendance Annual'[Enrolments])),
+					FILTER(ALL('Dim Date'), 'Dim Date'[AcademicYearSort] = LatestYear - 1),
+					REMOVEFILTERS('Dim Geography'),
+					REMOVEFILTERS('Dim School Type'),
+					'Dim Geography'[GeographyLevel] = "National",
+					'Dim School Type'[SchoolType] = "Total"
+				)
+			RETURN (Cur - Prev) * 100
+		formatString: +0.0;-0.0;0.0
+		lineageTag: a1f10e02-1031-4001-9001-000000000031
+
+	measure 'Region Absence Rate' =
+			CALCULATE(
+				DIVIDE(SUM('Fact Attendance Annual'[OverallAbsenceSessions]), SUM('Fact Attendance Annual'[SessionsPossible])),
+				REMOVEFILTERS('Dim School Type'),
+				'Dim Geography'[GeographyLevel] = "Regional",
+				'Dim School Type'[SchoolType] = "Total"
+			)
+		formatString: 0.0%
+		lineageTag: a1f10e02-1040-4001-9001-000000000040
+
+	measure 'Region Persistent Absence Rate' =
+			CALCULATE(
+				DIVIDE(SUM('Fact Attendance Annual'[PersistentAbsentees]), SUM('Fact Attendance Annual'[Enrolments])),
+				REMOVEFILTERS('Dim School Type'),
+				'Dim Geography'[GeographyLevel] = "Regional",
+				'Dim School Type'[SchoolType] = "Total"
+			)
+		formatString: 0.0%
+		lineageTag: a1f10e02-1041-4001-9001-000000000041
+
+	measure 'LA Absence Rate' =
+			CALCULATE(
+				DIVIDE(SUM('Fact Attendance Annual'[OverallAbsenceSessions]), SUM('Fact Attendance Annual'[SessionsPossible])),
+				REMOVEFILTERS('Dim School Type'),
+				'Dim Geography'[GeographyLevel] = "Local authority",
+				'Dim School Type'[SchoolType] = "Total"
+			)
+		formatString: 0.0%
+		lineageTag: a1f10e02-1050-4001-9001-000000000050
+
+	measure 'LA Persistent Absence Rate' =
+			CALCULATE(
+				DIVIDE(SUM('Fact Attendance Annual'[PersistentAbsentees]), SUM('Fact Attendance Annual'[Enrolments])),
+				REMOVEFILTERS('Dim School Type'),
+				'Dim Geography'[GeographyLevel] = "Local authority",
+				'Dim School Type'[SchoolType] = "Total"
+			)
+		formatString: 0.0%
+		lineageTag: a1f10e02-1051-4001-9001-000000000051
+
+	measure 'LA Severe Absence Rate' =
+			CALCULATE(
+				DIVIDE(SUM('Fact Attendance Annual'[SevereAbsentees]), SUM('Fact Attendance Annual'[Enrolments])),
+				REMOVEFILTERS('Dim School Type'),
+				'Dim Geography'[GeographyLevel] = "Local authority",
+				'Dim School Type'[SchoolType] = "Total"
+			)
+		formatString: 0.0%
+		lineageTag: a1f10e02-1052-4001-9001-000000000052
+
+	measure 'LA Attendance Rate' = 1 - [LA Absence Rate]
+		formatString: 0.0%
+		lineageTag: a1f10e02-1053-4001-9001-000000000053
+
+	measure 'LA Pupil Enrolments' =
+			CALCULATE(
+				SUM('Fact Attendance Annual'[Enrolments]),
+				REMOVEFILTERS('Dim School Type'),
+				'Dim Geography'[GeographyLevel] = "Local authority",
+				'Dim School Type'[SchoolType] = "Total"
+			)
+		formatString: #,##0
+		lineageTag: a1f10e02-1054-4001-9001-000000000054
+
+	column AcademicYearKey
+		dataType: string
+		isHidden
+		lineageTag: 00cfe8b3-12a7-4cd0-8854-8d550c7dad48
+		summarizeBy: none
+		sourceColumn: AcademicYearKey
+
+	column AcademicYearSort
+		dataType: int64
+		isHidden
+		lineageTag: dc8b0fdf-55bf-434f-a334-269cf6b0eb8f
+		summarizeBy: none
+		sourceColumn: AcademicYearSort
+
+	column YearBreakdown
+		dataType: string
+		isHidden
+		lineageTag: 54bcd134-ec23-47c2-8c30-15d25fbfc0c9
+		summarizeBy: none
+		sourceColumn: YearBreakdown
+
+	column GeographyKey
+		dataType: string
+		isHidden
+		lineageTag: 195027db-ba99-42ec-a066-7c7f8714470c
+		summarizeBy: none
+		sourceColumn: GeographyKey
+
+	column SchoolTypeKey
+		dataType: string
+		isHidden
+		lineageTag: 332ab4c3-0b11-41dc-b6cd-ffcb07a7f09e
+		summarizeBy: none
+		sourceColumn: SchoolTypeKey
+
+	column EducationPhase
+		dataType: string
+		isHidden
+		lineageTag: 816016f7-fe04-4480-9aab-edd12f57eee8
+		summarizeBy: none
+		sourceColumn: EducationPhase
+
+	column NumSchools
+		dataType: double
+		lineageTag: 68976c66-a71a-45c9-aa77-24e8d2bbebba
+		summarizeBy: none
+		sourceColumn: NumSchools
+
+	column Enrolments
+		dataType: double
+		lineageTag: c233e967-e0ef-4a8e-9126-a9c4090cdb2d
+		summarizeBy: none
+		sourceColumn: Enrolments
+
+	column SessionsPossible
+		dataType: double
+		lineageTag: 8c112b59-3dcf-4cda-b923-e86323a480c0
+		summarizeBy: none
+		sourceColumn: SessionsPossible
+
+	column OverallAbsenceSessions
+		dataType: double
+		lineageTag: 5c5c0074-abfa-4318-93d2-745aaa236a00
+		summarizeBy: none
+		sourceColumn: OverallAbsenceSessions
+
+	column AuthorisedAbsenceSessions
+		dataType: double
+		lineageTag: 15be4bad-9cd1-4fe9-bafb-5271ed988881
+		summarizeBy: none
+		sourceColumn: AuthorisedAbsenceSessions
+
+	column UnauthorisedAbsenceSessions
+		dataType: double
+		lineageTag: 1a0cc40b-f1a3-4d8b-a8a3-c2e8e092da0a
+		summarizeBy: none
+		sourceColumn: UnauthorisedAbsenceSessions
+
+	column OverallAbsenceRateSource
+		dataType: double
+		lineageTag: 4459dbe0-48ce-4bc2-8ebe-ad7eef2591fb
+		summarizeBy: none
+		sourceColumn: OverallAbsenceRateSource
+
+	column AuthorisedAbsenceRateSource
+		dataType: double
+		lineageTag: f6002362-697a-45be-a236-1716bd514483
+		summarizeBy: none
+		sourceColumn: AuthorisedAbsenceRateSource
+
+	column UnauthorisedAbsenceRateSource
+		dataType: double
+		lineageTag: cf873cb5-405b-47f6-adcc-a1e5ec0d2c51
+		summarizeBy: none
+		sourceColumn: UnauthorisedAbsenceRateSource
+
+	column AttendanceRateSource
+		dataType: double
+		lineageTag: efcabf5b-816a-496a-8c1c-b44453949a8e
+		summarizeBy: none
+		sourceColumn: AttendanceRateSource
+
+	column PersistentAbsentees
+		dataType: double
+		lineageTag: defd773d-07b5-469e-852b-711599933ba6
+		summarizeBy: none
+		sourceColumn: PersistentAbsentees
+
+	column PersistentAbsenceRateSource
+		dataType: double
+		lineageTag: 99745495-54e9-41f6-a9ac-1da110c05930
+		summarizeBy: none
+		sourceColumn: PersistentAbsenceRateSource
+
+	column SevereAbsentees
+		dataType: double
+		lineageTag: 9f5cca4e-9c51-4010-861b-377cd968a104
+		summarizeBy: none
+		sourceColumn: SevereAbsentees
+
+	column SevereAbsenceRateSource
+		dataType: double
+		lineageTag: 9945b39b-9000-4f1f-adec-6f0b0aa95603
+		summarizeBy: none
+		sourceColumn: SevereAbsenceRateSource
+
+	column IllnessAbsenceRateSource
+		dataType: double
+		lineageTag: 498ecd31-634e-42c4-aa32-88506cb99f28
+		summarizeBy: none
+		sourceColumn: IllnessAbsenceRateSource
+
+	column AppointmentsAbsenceRateSource
+		dataType: double
+		lineageTag: 8288df2a-7226-4dc3-9d03-caad36b75a55
+		summarizeBy: none
+		sourceColumn: AppointmentsAbsenceRateSource
+
+	column UnauthorisedHolidayAbsenceRateSource
+		dataType: double
+		lineageTag: 716a9422-ee5c-49ff-a80d-bd8343e53862
+		summarizeBy: none
+		sourceColumn: UnauthorisedHolidayAbsenceRateSource
+
+	partition 'Fact Attendance Annual' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(CuratedDataFolder & "\fact_attendance_annual.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Headers, {
+						{"AcademicYearKey", type text},
+						{"AcademicYearSort", Int64.Type},
+						{"YearBreakdown", type text},
+						{"GeographyKey", type text},
+						{"SchoolTypeKey", type text},
+						{"EducationPhase", type text},
+						{"NumSchools", type number},
+						{"Enrolments", type number},
+						{"SessionsPossible", type number},
+						{"OverallAbsenceSessions", type number},
+						{"AuthorisedAbsenceSessions", type number},
+						{"UnauthorisedAbsenceSessions", type number},
+						{"OverallAbsenceRateSource", type number},
+						{"AuthorisedAbsenceRateSource", type number},
+						{"UnauthorisedAbsenceRateSource", type number},
+						{"AttendanceRateSource", type number},
+						{"PersistentAbsentees", type number},
+						{"PersistentAbsenceRateSource", type number},
+						{"SevereAbsentees", type number},
+						{"SevereAbsenceRateSource", type number},
+						{"IllnessAbsenceRateSource", type number},
+						{"AppointmentsAbsenceRateSource", type number},
+						{"UnauthorisedHolidayAbsenceRateSource", type number}
+					}, "en-GB")
+				in
+					Typed
+

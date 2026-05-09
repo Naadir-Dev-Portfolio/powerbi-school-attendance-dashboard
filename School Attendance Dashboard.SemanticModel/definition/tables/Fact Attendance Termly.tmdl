@@ -1,0 +1,171 @@
+table 'Fact Attendance Termly'
+	lineageTag: af1bfd96-ec75-4ce6-a1a5-0aebd11a01a2
+
+	measure 'Termly Absence Rate' = DIVIDE(SUM('Fact Attendance Termly'[OverallAbsenceSessions]), SUM('Fact Attendance Termly'[SessionsPossible]))
+		formatString: 0.0%
+		lineageTag: cd901fce-fd96-4ba9-9b24-4ff031bb1bd2
+
+	measure 'Termly Attendance Rate' = 1 - [Termly Absence Rate]
+		formatString: 0.0%
+		lineageTag: bb8eef85-ef36-4b00-a350-154bd28abbd8
+
+	measure 'Termly Persistent Absence Rate' = DIVIDE(SUM('Fact Attendance Termly'[PersistentAbsentees]), SUM('Fact Attendance Termly'[Enrolments]))
+		formatString: 0.0%
+		lineageTag: 782cb1d7-3058-4cd9-980c-91ed690aef67
+
+	measure 'Termly Severe Absence Rate' = DIVIDE(SUM('Fact Attendance Termly'[SevereAbsentees]), SUM('Fact Attendance Termly'[Enrolments]))
+		formatString: 0.0%
+		lineageTag: 75d77d31-bebb-4842-801e-882f53840ea9
+
+	column TermKey
+		dataType: string
+		isHidden
+		lineageTag: 9d7d9133-ac46-4ed0-8a00-185304d8fd17
+		summarizeBy: none
+		sourceColumn: TermKey
+
+	column AcademicYearKey
+		dataType: string
+		isHidden
+		lineageTag: d297b869-b939-47c2-8bd3-15ee6cd8d962
+		summarizeBy: none
+		sourceColumn: AcademicYearKey
+
+	column AcademicYearSort
+		dataType: int64
+		isHidden
+		lineageTag: f3c717e4-6c91-4f86-9441-ee3a84696a12
+		summarizeBy: none
+		sourceColumn: AcademicYearSort
+
+	column TermName
+		dataType: string
+		isHidden
+		lineageTag: 71b6a9b5-32bf-4060-b005-937cc364a65e
+		summarizeBy: none
+		sourceColumn: TermName
+
+	column TermSort
+		dataType: int64
+		isHidden
+		lineageTag: bccb39a1-35d9-46c8-a3cd-467dcd338d30
+		summarizeBy: none
+		sourceColumn: TermSort
+
+	column GeographyKey
+		dataType: string
+		isHidden
+		lineageTag: 903200aa-1f79-469f-bf96-73017f496726
+		summarizeBy: none
+		sourceColumn: GeographyKey
+
+	column SchoolTypeKey
+		dataType: string
+		isHidden
+		lineageTag: 48e91f3f-2729-451f-ace1-a8f7e365d97e
+		summarizeBy: none
+		sourceColumn: SchoolTypeKey
+
+	column EducationPhase
+		dataType: string
+		isHidden
+		lineageTag: 5f5fdf81-a290-481e-b280-2bce566a68cc
+		summarizeBy: none
+		sourceColumn: EducationPhase
+
+	column Enrolments
+		dataType: double
+		lineageTag: 0b3b9181-19d5-4a6f-8c50-4bf3691583e8
+		summarizeBy: none
+		sourceColumn: Enrolments
+
+	column SessionsPossible
+		dataType: double
+		lineageTag: 5dbecd4c-cea9-49af-9f93-7a308fbbe7cd
+		summarizeBy: none
+		sourceColumn: SessionsPossible
+
+	column OverallAbsenceSessions
+		dataType: double
+		lineageTag: c10185b2-9361-4a96-b229-a497dae67c86
+		summarizeBy: none
+		sourceColumn: OverallAbsenceSessions
+
+	column AuthorisedAbsenceSessions
+		dataType: double
+		lineageTag: fa4e7949-3133-4eaf-a7cb-977f6fc75c0b
+		summarizeBy: none
+		sourceColumn: AuthorisedAbsenceSessions
+
+	column UnauthorisedAbsenceSessions
+		dataType: double
+		lineageTag: 9292913f-cd7b-4de1-9762-84cfea60246e
+		summarizeBy: none
+		sourceColumn: UnauthorisedAbsenceSessions
+
+	column OverallAbsenceRateSource
+		dataType: double
+		lineageTag: b42354db-8836-4179-a4f4-d3f21050d89c
+		summarizeBy: none
+		sourceColumn: OverallAbsenceRateSource
+
+	column AttendanceRateSource
+		dataType: double
+		lineageTag: 7a020658-58a0-4890-b922-eb188285f98a
+		summarizeBy: none
+		sourceColumn: AttendanceRateSource
+
+	column PersistentAbsentees
+		dataType: double
+		lineageTag: cd25c6f8-e1e7-46c5-ae2c-5325d31a9f9a
+		summarizeBy: none
+		sourceColumn: PersistentAbsentees
+
+	column PersistentAbsenceRateSource
+		dataType: double
+		lineageTag: f64228c3-434b-4948-be14-aa8fd8bd1840
+		summarizeBy: none
+		sourceColumn: PersistentAbsenceRateSource
+
+	column SevereAbsentees
+		dataType: double
+		lineageTag: 397702f2-7455-44d3-a8f8-e773b4b7977f
+		summarizeBy: none
+		sourceColumn: SevereAbsentees
+
+	column SevereAbsenceRateSource
+		dataType: double
+		lineageTag: 80e8d17b-bb0a-4528-987f-a00e63fd872d
+		summarizeBy: none
+		sourceColumn: SevereAbsenceRateSource
+
+	partition 'Fact Attendance Termly' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(CuratedDataFolder & "\fact_attendance_termly.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Headers, {
+						{"TermKey", type text},
+						{"AcademicYearKey", type text},
+						{"AcademicYearSort", Int64.Type},
+						{"TermName", type text},
+						{"TermSort", Int64.Type},
+						{"GeographyKey", type text},
+						{"SchoolTypeKey", type text},
+						{"EducationPhase", type text},
+						{"Enrolments", type number},
+						{"SessionsPossible", type number},
+						{"OverallAbsenceSessions", type number},
+						{"AuthorisedAbsenceSessions", type number},
+						{"UnauthorisedAbsenceSessions", type number},
+						{"OverallAbsenceRateSource", type number},
+						{"AttendanceRateSource", type number},
+						{"PersistentAbsentees", type number},
+						{"PersistentAbsenceRateSource", type number},
+						{"SevereAbsentees", type number},
+						{"SevereAbsenceRateSource", type number}
+					}, "en-GB")
+				in
+					Typed
+

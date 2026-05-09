@@ -1,0 +1,64 @@
+table 'Dim Term'
+	lineageTag: 1abaddf8-0b15-41ea-b7b9-96c601c76c66
+
+	column TermKey
+		dataType: string
+		isKey
+		lineageTag: 9754fb3a-183a-4535-aa39-4d4d0dcdbbae
+		summarizeBy: none
+		sourceColumn: TermKey
+
+	column AcademicYearKey
+		dataType: string
+		lineageTag: f69dc05e-b57d-4044-8b1c-4827727f15ff
+		summarizeBy: none
+		sourceColumn: AcademicYearKey
+
+	column AcademicYearSort
+		dataType: int64
+		lineageTag: c48f38db-3ada-4c84-b485-6b7f6219d481
+		summarizeBy: none
+		sourceColumn: AcademicYearSort
+
+	column TermName
+		dataType: string
+		lineageTag: effbba98-10cf-47e6-ae37-e72ac7f59510
+		summarizeBy: none
+		sourceColumn: TermName
+
+	column TermSort
+		dataType: int64
+		lineageTag: c7e1dadf-a00d-446c-be8c-648e1a3000c6
+		summarizeBy: none
+		sourceColumn: TermSort
+
+	column TermLabel
+		dataType: string
+		lineageTag: cccd2333-b1c4-4655-9bb4-1a7fff249178
+		summarizeBy: none
+		sourceColumn: TermLabel
+
+	column TermSequence
+		dataType: int64
+		lineageTag: 16971004-c814-4eb9-ad56-dfcff0d5d0e2
+		summarizeBy: none
+		sourceColumn: TermSequence
+
+	partition 'Dim Term' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(CuratedDataFolder & "\dim_term.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Headers, {
+						{"TermKey", type text},
+						{"AcademicYearKey", type text},
+						{"AcademicYearSort", Int64.Type},
+						{"TermName", type text},
+						{"TermSort", Int64.Type},
+						{"TermLabel", type text},
+						{"TermSequence", Int64.Type}
+					}, "en-GB")
+				in
+					Typed
+

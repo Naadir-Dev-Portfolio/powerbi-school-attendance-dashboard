@@ -1,0 +1,60 @@
+cultureInfo en-GB
+
+	linguisticMetadata =
+			{
+			  "Version": "1.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "dim_geography.geographyname": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim Geography",
+			        "ConceptualProperty": "GeographyName"
+			      },
+			      "State": "Generated"
+			    },
+			    "dim_geography.regionname": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim Geography",
+			        "ConceptualProperty": "RegionName"
+			      },
+			      "State": "Generated"
+			    },
+			    "fact_attendance_annual.la_pupil_enrolments": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact Attendance Annual",
+			        "ConceptualProperty": "LA Pupil Enrolments"
+			      },
+			      "State": "Generated"
+			    },
+			    "fact_attendance_annual.la_attendance_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact Attendance Annual",
+			        "ConceptualProperty": "LA Attendance Rate"
+			      },
+			      "State": "Generated"
+			    },
+			    "fact_attendance_annual.la_persistent_absence_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact Attendance Annual",
+			        "ConceptualProperty": "LA Persistent Absence Rate"
+			      },
+			      "State": "Generated"
+			    },
+			    "fact_attendance_annual.la_severe_absence_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact Attendance Annual",
+			        "ConceptualProperty": "LA Severe Absence Rate"
+			      },
+			      "State": "Generated"
+			    },
+			    "fact_attendance_annual.local_authority_persistent_absence_rank": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact Attendance Annual",
+			        "ConceptualProperty": "Local Authority Persistent Absence Rank"
+			      },
+			      "State": "Generated"
+			    }
+			  }
+			}
+		contentType: json
+

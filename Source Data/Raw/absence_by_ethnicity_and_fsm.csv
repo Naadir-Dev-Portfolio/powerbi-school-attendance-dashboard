@@ -1,0 +1,640 @@
+﻿time_period,time_identifier,geographic_level,country_code,country_name,education_phase,fsm,ethnicity_minor,enrolments,sess_possible,sess_overall,sess_overall_percent,enrolments_pa_10_exact,enrolments_pa_10_exact_percent,enrolments_pa_50_exact,enrolments_pa_50_exact_percent,sess_possible_pa_10_exact,sess_overall_pa_10_exact
+202425,Academic year,National,E92000001,England,Special,FSM eligible,African,3527,1249693,116876,9.35238,986,27.95577,106,3.00539,339674,79692
+202425,Academic year,National,E92000001,England,Special,FSM not eligible,African,3266,1146725,96068,8.3776,760,23.27006,103,3.1537,254823,62745
+202425,Academic year,National,E92000001,England,Special,FSM unclassified,African,43,479,251,52.40084,22,51.16279,21,48.83721,279,249
+202425,Academic year,National,E92000001,England,Special,Total,African,6836,2396897,213195,8.89463,1768,25.86308,230,3.36454,594776,142686
+202425,Academic year,National,E92000001,England,Special,FSM eligible,Any other Asian background,956,341082,38976,11.42716,344,35.98326,31,3.24268,122613,28830
+202425,Academic year,National,E92000001,England,Special,FSM not eligible,Any other Asian background,2042,730245,76314,10.45047,650,31.83154,75,3.67287,228483,53862
+202425,Academic year,National,E92000001,England,Special,FSM unclassified,Any other Asian background,10,192,99,51.5625,5,50,5,50,98,98
+202425,Academic year,National,E92000001,England,Special,Total,Any other Asian background,3008,1071519,115389,10.76873,999,33.21144,111,3.69016,351194,82790
+202425,Academic year,National,E92000001,England,Special,FSM eligible,Any other Black / African / Caribbean background,887,313062,33179,10.59822,281,31.67982,38,4.2841,97417,24585
+202425,Academic year,National,E92000001,England,Special,FSM not eligible,Any other Black / African / Caribbean background,756,262782,22550,8.58126,183,24.20635,25,3.30688,61156,15226
+202425,Academic year,National,E92000001,England,Special,FSM unclassified,Any other Black / African / Caribbean background,9,269,41,15.24164,4,44.44444,1,11.11111,153,39
+202425,Academic year,National,E92000001,England,Special,Total,Any other Black / African / Caribbean background,1652,576113,55770,9.68039,468,28.3293,64,3.87409,158726,39850
+202425,Academic year,National,E92000001,England,Special,FSM eligible,Any other ethnic group,1467,517109,60705,11.7393,559,38.10498,59,4.02181,190510,45168
+202425,Academic year,National,E92000001,England,Special,FSM not eligible,Any other ethnic group,1425,504485,56017,11.1038,487,34.17544,56,3.92982,166728,41094
+202425,Academic year,National,E92000001,England,Special,FSM unclassified,Any other ethnic group,17,312,134,42.94872,7,41.17647,6,35.29412,216,134
+202425,Academic year,National,E92000001,England,Special,Total,Any other ethnic group,2909,1021906,116856,11.4351,1053,36.19801,121,4.1595,357454,86396
+202425,Academic year,National,E92000001,England,Special,FSM eligible,Any other Mixed / Multiple ethnic background,2098,738952,110854,15.00152,937,44.66158,167,7.95996,321280,91852
+202425,Academic year,National,E92000001,England,Special,FSM not eligible,Any other Mixed / Multiple ethnic background,2113,752891,79460,10.55398,622,29.43682,91,4.30667,216354,57169
+202425,Academic year,National,E92000001,England,Special,FSM unclassified,Any other Mixed / Multiple ethnic background,20,441,286,64.85261,13,65,12,60,344,286
+202425,Academic year,National,E92000001,England,Special,Total,Any other Mixed / Multiple ethnic background,4231,1492284,190600,12.77237,1572,37.15434,270,6.38147,537978,149307
+202425,Academic year,National,E92000001,England,Special,FSM eligible,Any other White background,2323,821069,109164,13.29535,932,40.12053,133,5.72536,322452,86225
+202425,Academic year,National,E92000001,England,Special,FSM not eligible,Any other White background,4067,1439546,147762,10.26449,1192,29.30907,165,4.05704,407930,102246
+202425,Academic year,National,E92000001,England,Special,FSM unclassified,Any other White background,36,871,633,72.67509,23,63.88889,21,58.33333,745,630
+202425,Academic year,National,E92000001,England,Special,Total,Any other White background,6426,2261486,257559,11.38893,2147,33.41114,319,4.96421,731127,189101
+202425,Academic year,National,E92000001,England,Special,FSM eligible,Bangladeshi,1101,393461,56047,14.24461,520,47.22979,63,5.72207,183441,45326
+202425,Academic year,National,E92000001,England,Special,FSM not eligible,Bangladeshi,1421,507740,59933,11.80388,562,39.54961,42,2.95567,200291,44366
+202425,Academic year,National,E92000001,England,Special,FSM unclassified,Bangladeshi,7,182,112,61.53846,4,57.14286,4,57.14286,141,112
+202425,Academic year,National,E92000001,England,Special,Total,Bangladeshi,2529,901383,116092,12.87932,1086,42.94187,109,4.31,383873,89804
+202425,Academic year,National,E92000001,England,Special,FSM eligible,Caribbean,954,332415,40982,12.32857,363,38.05031,51,5.34591,122694,31900
+202425,Academic year,National,E92000001,England,Special,FSM not eligible,Caribbean,578,203440,21081,10.36227,175,30.27682,23,3.97924,58600,14973
+202425,Academic year,National,E92000001,England,Special,FSM unclassified,Caribbean,5,74,16,21.62162,3,60,2,40,42,16
+202425,Academic year,National,E92000001,England,Special,Total,Caribbean,1537,535929,62079,11.58344,541,35.19844,76,4.9447,181336,46889
+202425,Academic year,National,E92000001,England,Special,FSM eligible,Chinese,138,49017,3891,7.93806,23,16.66667,7,5.07246,8123,2697
+202425,Academic year,National,E92000001,England,Special,FSM not eligible,Chinese,410,144052,10340,7.17796,79,19.26829,8,1.95122,26585,6488
+202425,Academic year,National,E92000001,England,Special,Total,Chinese,548,193069,14231,7.37094,102,18.61314,15,2.73723,34708,9185
+202425,Academic year,National,E92000001,England,Special,FSM eligible,English / Welsh / Scottish / Northern Irish / British,50118,17646238,2701933,15.31167,21027,41.95499,4456,8.89102,7203148,2232474
+202425,Academic year,National,E92000001,England,Special,FSM not eligible,English / Welsh / Scottish / Northern Irish / British,48352,17163337,1825205,10.63432,13181,27.26051,2661,5.50339,4464994,1316630
+202425,Academic year,National,E92000001,England,Special,FSM unclassified,English / Welsh / Scottish / Northern Irish / British,466,11588,6620,57.12806,278,59.65665,242,51.93133,8510,6582
+202425,Academic year,National,E92000001,England,Special,Total,English / Welsh / Scottish / Northern Irish / British,98936,34821163,4533758,13.02012,34486,34.85688,7359,7.43814,11676652,3555686
+202425,Academic year,National,E92000001,England,Special,FSM eligible,Gypsy Roma,362,124778,32142,25.75935,239,66.0221,69,19.06077,81130,29918
+202425,Academic year,National,E92000001,England,Special,FSM not eligible,Gypsy Roma,168,57753,10679,18.49081,94,55.95238,18,10.71429,32086,9479
+202425,Academic year,National,E92000001,England,Special,FSM unclassified,Gypsy Roma,5,103,95,92.23301,4,80,4,80,95,95
+202425,Academic year,National,E92000001,England,Special,Total,Gypsy Roma,535,182634,42916,23.49836,337,62.99065,91,17.00935,113311,39492
+202425,Academic year,National,E92000001,England,Special,FSM eligible,Indian,500,179250,19674,10.97573,178,35.6,12,2.4,63827,14407
+202425,Academic year,National,E92000001,England,Special,FSM not eligible,Indian,2533,907223,88832,9.79164,760,30.00395,73,2.88196,266676,61142
+202425,Academic year,National,E92000001,England,Special,FSM unclassified,Indian,20,743,357,48.04845,14,70,9,45,596,354
+202425,Academic year,National,E92000001,England,Special,Total,Indian,3053,1087216,108863,10.01301,952,31.18244,94,3.07894,331099,75903
+202425,Academic year,National,E92000001,England,Special,FSM eligible,Irish,172,60159,12685,21.08579,102,59.30233,23,13.37209,34678,11490
+202425,Academic year,National,E92000001,England,Special,FSM not eligible,Irish,145,51898,6742,12.99087,47,32.41379,10,6.89655,16028,5188
+202425,Academic year,National,E92000001,England,Special,FSM unclassified,Irish,2,34,30,88.23529,1,50,1,50,30,30
+202425,Academic year,National,E92000001,England,Special,Total,Irish,319,112091,19457,17.35822,150,47.02194,34,10.65831,50736,16708
+202425,Academic year,National,E92000001,England,Special,FSM eligible,Irish Traveller,142,48146,14502,30.12088,109,76.76056,36,25.35211,36048,13825
+202425,Academic year,National,E92000001,England,Special,FSM not eligible,Irish Traveller,47,16337,3799,23.25396,31,65.95745,6,12.76596,10351,3534
+202425,Academic year,National,E92000001,England,Special,FSM unclassified,Irish Traveller,4,52,46,88.46154,2,50,2,50,46,46
+202425,Academic year,National,E92000001,England,Special,Total,Irish Traveller,193,64535,18347,28.42953,142,73.57513,44,22.79793,46445,17405
+202425,Academic year,National,E92000001,England,Special,FSM eligible,Pakistani,2352,825089,118778,14.39578,1063,45.19558,137,5.82483,369680,95343
+202425,Academic year,National,E92000001,England,Special,FSM not eligible,Pakistani,3679,1301354,185079,14.22203,1564,42.51155,225,6.11579,546125,146482
+202425,Academic year,National,E92000001,England,Special,FSM unclassified,Pakistani,34,772,348,45.07772,16,47.05882,13,38.23529,452,348
+202425,Academic year,National,E92000001,England,Special,Total,Pakistani,6065,2127215,304205,14.30062,2643,43.57791,375,6.18302,916257,242173
+202425,Academic year,National,E92000001,England,Special,FSM eligible,Unclassified,1362,440840,74983,17.00912,660,48.45815,156,11.45374,201441,63978
+202425,Academic year,National,E92000001,England,Special,FSM not eligible,Unclassified,1648,508066,82723,16.28194,712,43.20388,220,13.34951,198301,69418
+202425,Academic year,National,E92000001,England,Special,FSM unclassified,Unclassified,80,1381,764,55.32223,28,35,23,28.75,1035,762
+202425,Academic year,National,E92000001,England,Special,Total,Unclassified,3090,950287,158470,16.67601,1400,45.30744,399,12.91262,400777,134158
+202425,Academic year,National,E92000001,England,Special,FSM eligible,White and Asian,825,291197,42446,14.57639,364,44.12121,60,7.27273,125466,35447
+202425,Academic year,National,E92000001,England,Special,FSM not eligible,White and Asian,1185,419371,44446,10.59825,329,27.76371,66,5.56962,110812,32068
+202425,Academic year,National,E92000001,England,Special,FSM unclassified,White and Asian,6,146,98,67.12329,3,50,2,33.33333,132,98
+202425,Academic year,National,E92000001,England,Special,Total,White and Asian,2016,710714,86990,12.2398,696,34.52381,128,6.34921,236410,67613
+202425,Academic year,National,E92000001,England,Special,FSM eligible,White and Black African,837,292329,42155,14.4204,327,39.0681,69,8.24373,109392,34331
+202425,Academic year,National,E92000001,England,Special,FSM not eligible,White and Black African,616,216817,20711,9.5523,141,22.88961,32,5.19481,46211,14121
+202425,Academic year,National,E92000001,England,Special,FSM unclassified,White and Black African,6,34,14,41.17647,3,50,2,33.33333,18,14
+202425,Academic year,National,E92000001,England,Special,Total,White and Black African,1459,509180,62880,12.34927,471,32.28239,103,7.05963,155621,48466
+202425,Academic year,National,E92000001,England,Special,FSM eligible,White and Black Caribbean,2036,703008,121325,17.25798,982,48.23183,218,10.70727,331039,103810
+202425,Academic year,National,E92000001,England,Special,FSM not eligible,White and Black Caribbean,1004,349935,46436,13.26989,320,31.87251,84,8.36653,105060,36099
+202425,Academic year,National,E92000001,England,Special,FSM unclassified,White and Black Caribbean,18,342,209,61.11111,11,61.11111,9,50,265,209
+202425,Academic year,National,E92000001,England,Special,Total,White and Black Caribbean,3058,1053285,167970,15.94725,1313,42.93656,311,10.17005,436364,140118
+202425,Academic year,National,E92000001,England,Special,Total,Total,148400,52068906,6645627,12.76314,52326,35.26011,10253,6.90903,17694844,5173730
+202425,Academic year,National,E92000001,England,State-funded primary,FSM eligible,African,57352,20451953,869990,4.25382,5416,9.44344,344,0.5998,1728948,306865
+202425,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,African,142510,49487001,1427844,2.88529,6780,4.75756,581,0.40769,1913602,356916
+202425,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,African,5280,131292,28261,21.5253,2619,49.60227,1461,27.67045,54362,26548
+202425,Academic year,National,E92000001,England,State-funded primary,Total,African,205142,70070246,2326095,3.31966,14815,7.22183,2386,1.1631,3696912,690329
+202425,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Any other Asian background,20902,7352563,418759,5.69542,3144,15.04162,136,0.65066,1013337,167496
+202425,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Any other Asian background,67560,24067334,1118685,4.64815,6716,9.94079,249,0.36856,2198593,347455
+202425,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Any other Asian background,1922,50211,10902,21.71237,945,49.16753,459,23.88137,23103,10197
+202425,Academic year,National,E92000001,England,State-funded primary,Total,Any other Asian background,90384,31470108,1548346,4.92005,10805,11.95455,844,0.93379,3235033,525148
+202425,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Any other Black / African / Caribbean background,12326,4388949,257540,5.86792,2125,17.23998,119,0.96544,698403,130198
+202425,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Any other Black / African / Caribbean background,18120,6473871,243543,3.76194,1371,7.56623,78,0.43046,441218,76257
+202425,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Any other Black / African / Caribbean background,558,14208,3867,27.21706,312,55.91398,176,31.54122,7392,3710
+202425,Academic year,National,E92000001,England,State-funded primary,Total,Any other Black / African / Caribbean background,31004,10877028,504950,4.64235,3808,12.28229,373,1.20307,1147013,210165
+202425,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Any other ethnic group,41302,14323256,843475,5.88885,6618,16.02344,312,0.75541,2068288,352432
+202425,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Any other ethnic group,57835,20430857,1041313,5.09677,6815,11.78352,315,0.54465,2149423,348582
+202425,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Any other ethnic group,2598,71460,17836,24.95942,1377,53.00231,740,28.48345,34907,16824
+202425,Academic year,National,E92000001,England,State-funded primary,Total,Any other ethnic group,101735,34825573,1902624,5.4633,14810,14.55743,1367,1.34369,4252618,717838
+202425,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Any other Mixed / Multiple ethnic background,34009,12123225,961902,7.93437,8949,26.31362,447,1.31436,3032547,572509
+202425,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Any other Mixed / Multiple ethnic background,77609,28226669,1267399,4.49008,7258,9.35201,294,0.37882,2441311,400693
+202425,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Any other Mixed / Multiple ethnic background,1383,34430,8502,24.69358,771,55.74837,416,30.07954,17473,8096
+202425,Academic year,National,E92000001,England,State-funded primary,Total,Any other Mixed / Multiple ethnic background,113001,40384324,2237803,5.54127,16978,15.02465,1157,1.02388,5491331,981298
+202425,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Any other White background,61218,21765953,1581003,7.26365,14215,23.22029,653,1.06668,4736623,861546
+202425,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Any other White background,221664,80746949,3790409,4.69418,21034,9.48914,993,0.44798,6975097,1159928
+202425,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Any other White background,3547,90303,25903,28.68454,2040,57.51339,1187,33.4649,48897,24916
+202425,Academic year,National,E92000001,England,State-funded primary,Total,Any other White background,286429,102603205,5397315,5.26038,37289,13.01858,2833,0.98908,11760617,2046390
+202425,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Bangladeshi,22719,8273670,555499,6.71406,4721,20.77996,83,0.36533,1668549,258648
+202425,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Bangladeshi,42316,15375185,931594,6.05908,6745,15.9396,147,0.34739,2351260,358850
+202425,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Bangladeshi,886,24975,5524,22.11812,499,56.32054,216,24.37923,13216,5184
+202425,Academic year,National,E92000001,England,State-funded primary,Total,Bangladeshi,65921,23673830,1492617,6.30492,11965,18.15051,446,0.67657,4033025,622682
+202425,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Caribbean,15605,5555503,438548,7.89394,4171,26.72861,164,1.05095,1405153,263089
+202425,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Caribbean,16200,5841204,283260,4.84934,1845,11.38889,70,0.4321,617757,105402
+202425,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Caribbean,443,11514,3321,28.84315,271,61.17381,169,38.14898,6384,3195
+202425,Academic year,National,E92000001,England,State-funded primary,Total,Caribbean,32248,11408221,725129,6.3562,6287,19.49578,403,1.24969,2029294,371686
+202425,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Chinese,2260,817062,21780,2.66565,76,3.36283,3,0.13274,23868,3687
+202425,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Chinese,27123,9810906,281926,2.8736,886,3.2666,44,0.16222,276289,45814
+202425,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Chinese,523,12923,1503,11.63043,175,33.4608,82,15.67878,3352,1341
+202425,Academic year,National,E92000001,England,State-funded primary,Total,Chinese,29906,10640891,305209,2.86827,1137,3.80191,129,0.43135,303509,50842
+202425,Academic year,National,E92000001,England,State-funded primary,FSM eligible,English / Welsh / Scottish / Northern Irish / British,605414,218365420,18033295,8.25831,162584,26.85501,8900,1.47007,56150028,10972551
+202425,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,English / Welsh / Scottish / Northern Irish / British,1706007,632949865,25259617,3.99078,111033,6.50836,5266,0.30867,38955491,6802300
+202425,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,English / Welsh / Scottish / Northern Irish / British,12148,312091,88454,28.34237,7280,59.92756,4339,35.71781,172610,84775
+202425,Academic year,National,E92000001,England,State-funded primary,Total,English / Welsh / Scottish / Northern Irish / British,2323569,851627376,43381366,5.09394,280897,12.08903,18505,0.7964,95278129,17859626
+202425,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Gypsy Roma,10410,3576882,544404,15.22007,6029,57.91547,527,5.06244,2001626,458524
+202425,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Gypsy Roma,6555,2212843,307368,13.89019,3392,51.74676,348,5.30892,1087510,252108
+202425,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Gypsy Roma,406,13712,5989,43.67707,349,85.96059,216,53.20197,11584,5896
+202425,Academic year,National,E92000001,England,State-funded primary,Total,Gypsy Roma,17371,5803437,857761,14.78022,9770,56.24316,1091,6.28058,3100720,716528
+202425,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Indian,11214,4056034,234364,5.77816,1794,15.99786,32,0.28536,623673,100613
+202425,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Indian,154179,54778320,2549272,4.6538,15692,10.17778,433,0.28084,5060269,764879
+202425,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Indian,3668,95155,17834,18.74205,1737,47.35551,820,22.35551,38465,16435
+202425,Academic year,National,E92000001,England,State-funded primary,Total,Indian,169061,58929509,2801470,4.75393,19223,11.37045,1285,0.76008,5722407,881927
+202425,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Irish,1989,684824,88519,12.9258,937,47.1091,74,3.72046,308973,70205
+202425,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Irish,6524,2403857,106643,4.43633,548,8.39975,44,0.67443,183292,35701
+202425,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Irish,78,1798,708,39.37709,53,67.94872,37,47.4359,1199,692
+202425,Academic year,National,E92000001,England,State-funded primary,Total,Irish,8591,3090479,195870,6.33785,1538,17.90246,155,1.80421,493464,106598
+202425,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Irish Traveller,3337,1090383,234764,21.53042,2440,73.11957,368,11.02787,778558,216841
+202425,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Irish Traveller,1257,407947,79528,19.49469,790,62.84805,155,12.33095,241474,71933
+202425,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Irish Traveller,145,5440,2149,39.50368,124,85.51724,74,51.03448,4848,2128
+202425,Academic year,National,E92000001,England,State-funded primary,Total,Irish Traveller,4739,1503770,316441,21.04318,3354,70.77442,597,12.59759,1024880,290902
+202425,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Pakistani,52391,18942450,1347202,7.11208,11941,22.79208,255,0.48672,4170521,668065
+202425,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Pakistani,121344,43785957,2683930,6.12966,19937,16.43015,434,0.35766,6893776,1053319
+202425,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Pakistani,2582,69383,16914,24.37773,1392,53.9117,734,28.42758,34951,15927
+202425,Academic year,National,E92000001,England,State-funded primary,Total,Pakistani,176317,62797790,4048046,6.44616,33270,18.86942,1423,0.80707,11099248,1737311
+202425,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Unclassified,17321,5369427,468881,8.73242,5169,29.84239,408,2.35552,1482922,302180
+202425,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Unclassified,45475,13677374,707571,5.1733,6023,13.24464,500,1.09951,1518901,292114
+202425,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Unclassified,2799,117428,22768,19.3889,1376,49.16041,614,21.93641,52000,20677
+202425,Academic year,National,E92000001,England,State-funded primary,Total,Unclassified,65595,19164229,1199220,6.2576,12568,19.16,1522,2.3203,3053823,614971
+202425,Academic year,National,E92000001,England,State-funded primary,FSM eligible,White and Asian,16192,5772661,453127,7.84953,4137,25.54965,198,1.22283,1399347,262108
+202425,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,White and Asian,52009,19127331,778748,4.07139,3758,7.22567,116,0.22304,1298897,209294
+202425,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,White and Asian,636,16321,3716,22.76821,331,52.04403,185,29.08805,7355,3457
+202425,Academic year,National,E92000001,England,State-funded primary,Total,White and Asian,68837,24916313,1235591,4.95896,8226,11.94997,499,0.7249,2705599,474859
+202425,Academic year,National,E92000001,England,State-funded primary,FSM eligible,White and Black African,13794,4931021,362063,7.34256,3172,22.99551,165,1.19617,1069900,206797
+202425,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,White and Black African,23484,8555563,336390,3.93183,1679,7.14955,68,0.28956,557932,92014
+202425,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,White and Black African,468,11993,3065,25.55657,260,55.55556,149,31.83761,6070,2901
+202425,Academic year,National,E92000001,England,State-funded primary,Total,White and Black African,37746,13498577,701518,5.19698,5111,13.54051,382,1.01203,1633902,301712
+202425,Academic year,National,E92000001,England,State-funded primary,FSM eligible,White and Black Caribbean,30602,10951327,1025004,9.35963,9989,32.64166,509,1.66329,3426782,678056
+202425,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,White and Black Caribbean,32074,11779627,566107,4.80581,3329,10.37912,126,0.39284,1145366,194932
+202425,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,White and Black Caribbean,509,14014,4584,32.71015,333,65.4224,203,39.88212,8476,4442
+202425,Academic year,National,E92000001,England,State-funded primary,Total,White and Black Caribbean,63185,22744968,1595695,7.0156,13651,21.60481,838,1.32626,4580624,877430
+202425,Academic year,National,E92000001,England,State-funded primary,Total,Total,3890781,1400029874,72773066,5.19797,505502,12.9923,36235,0.9313,164642148,30078242
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,African,54965,19012362,1037962,5.45941,7915,14.40007,570,1.03702,2510252,496602
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,African,111826,38261925,1339959,3.50207,8252,7.37932,554,0.49541,2436827,449245
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,African,2466,67141,19583,29.16698,1537,62.32766,880,35.68532,37754,18645
+202425,Academic year,National,E92000001,England,State-funded secondary,Total,African,169257,57341428,2397504,4.1811,17704,10.45983,2004,1.184,4984833,964492
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Any other Asian background,18805,6462624,478511,7.40428,4053,21.55278,302,1.60596,1300100,265355
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Any other Asian background,53645,18682586,926540,4.95938,6333,11.80539,319,0.59465,2021229,357666
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Any other Asian background,927,26248,8104,30.87473,601,64.83279,335,36.13808,15833,7705
+202425,Academic year,National,E92000001,England,State-funded secondary,Total,Any other Asian background,73377,25171458,1413155,5.61412,10987,14.97336,956,1.30286,3337162,630726
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Any other Black / African / Caribbean background,10634,3650864,287992,7.88832,2493,23.44367,268,2.52022,792267,183935
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Any other Black / African / Caribbean background,15023,5160224,246984,4.7863,1805,12.01491,125,0.83206,555742,111883
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Any other Black / African / Caribbean background,346,9763,3453,35.36823,233,67.34104,137,39.59538,5964,3304
+202425,Academic year,National,E92000001,England,State-funded secondary,Total,Any other Black / African / Caribbean background,26003,8820851,538429,6.10405,4531,17.42491,530,2.03823,1353973,299122
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Any other ethnic group,36399,12292244,1011016,8.22483,9218,25.32487,779,2.14017,2894901,604306
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Any other ethnic group,44606,15239641,946679,6.21195,7509,16.83406,532,1.19266,2321787,446396
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Any other ethnic group,1453,40540,13606,33.56191,993,68.34136,564,38.81624,26266,13083
+202425,Academic year,National,E92000001,England,State-funded secondary,Total,Any other ethnic group,82458,27572425,1971301,7.14954,17720,21.48973,1875,2.27388,5242954,1063785
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Any other Mixed / Multiple ethnic background,28755,9837057,1143934,11.62882,10366,36.04938,1430,4.97305,3361687,859928
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Any other Mixed / Multiple ethnic background,63139,22073767,1370529,6.20886,10161,16.09306,981,1.55371,3279083,710384
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Any other Mixed / Multiple ethnic background,1147,31326,11332,36.17442,796,69.39843,484,42.19704,20637,11018
+202425,Academic year,National,E92000001,England,State-funded secondary,Total,Any other Mixed / Multiple ethnic background,93041,31942150,2525795,7.9074,21323,22.91785,2895,3.11153,6661407,1581330
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Any other White background,50874,17432241,1863543,10.69021,17237,33.88175,2047,4.02367,5581101,1334779
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Any other White background,177777,62121791,3984494,6.414,29510,16.59945,2499,1.40569,9565249,1970356
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Any other White background,2499,66084,27131,41.05532,1815,72.62905,1187,47.499,46727,26436
+202425,Academic year,National,E92000001,England,State-funded secondary,Total,Any other White background,231150,79620116,5875168,7.379,48562,21.00887,5733,2.48021,15193077,3331571
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Bangladeshi,21763,7642128,607844,7.95386,5242,24.08675,308,1.41525,1785811,346739
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Bangladeshi,34350,12111190,770354,6.36068,5776,16.81514,224,0.65211,1963574,338051
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Bangladeshi,420,10887,3010,27.64765,272,64.7619,142,33.80952,6711,2865
+202425,Academic year,National,E92000001,England,State-funded secondary,Total,Bangladeshi,56533,19764205,1381208,6.98843,11290,19.97064,674,1.19222,3756096,687655
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Caribbean,15919,5385286,579568,10.76207,5621,35.31001,622,3.90728,1786813,424608
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Caribbean,17456,5985011,392320,6.55504,3274,18.75573,263,1.50665,1034291,211407
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Caribbean,399,11445,3826,33.42945,274,68.67168,148,37.09273,7657,3705
+202425,Academic year,National,E92000001,England,State-funded secondary,Total,Caribbean,33774,11381742,975714,8.57262,9169,27.1481,1033,3.05857,2828761,639720
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Chinese,2080,739230,22755,3.0782,123,5.91346,11,0.52885,39579,8049
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Chinese,24597,8698352,246625,2.83531,1016,4.13059,97,0.39436,315585,64470
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Chinese,200,4749,820,17.26679,102,51,50,25,2075,735
+202425,Academic year,National,E92000001,England,State-funded secondary,Total,Chinese,26877,9442331,270200,2.86158,1241,4.61733,158,0.58786,357239,73254
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,English / Welsh / Scottish / Northern Irish / British,520232,177226624,28383458,16.01535,242271,46.5698,50353,9.67895,78492839,23812540
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,English / Welsh / Scottish / Northern Irish / British,1499514,529308980,36865614,6.96486,256501,17.10561,36490,2.43346,84571712,21049817
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,English / Welsh / Scottish / Northern Irish / British,17493,490205,225684,46.0387,13966,79.83765,9268,52.98119,394753,222289
+202425,Academic year,National,E92000001,England,State-funded secondary,Total,English / Welsh / Scottish / Northern Irish / British,2037239,707025809,65474756,9.26059,512738,25.16828,96111,4.71771,163459304,45084646
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Gypsy Roma,6197,1894781,460962,24.32798,4629,74.69743,994,16.04002,1362201,431568
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Gypsy Roma,3146,1010543,178622,17.67584,1833,58.26446,330,10.48951,559518,156789
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Gypsy Roma,419,13847,7313,52.81288,378,90.2148,247,58.94988,12933,7277
+202425,Academic year,National,E92000001,England,State-funded secondary,Total,Gypsy Roma,9762,2919171,646897,22.1603,6840,70.06761,1571,16.09301,1934652,595634
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Indian,11542,4044740,311399,7.69886,2598,22.5091,211,1.82811,873234,183317
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Indian,112945,39692356,1858723,4.68282,11799,10.44668,367,0.32494,3838240,623673
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Indian,1176,30769,7789,25.31444,687,58.41837,349,29.67687,15701,7264
+202425,Academic year,National,E92000001,England,State-funded secondary,Total,Indian,125663,43767865,2177911,4.97605,15084,12.00353,927,0.73769,4727175,814254
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Irish,1763,588310,104361,17.73912,934,52.97788,200,11.3443,298519,90277
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Irish,6109,2145231,142344,6.63537,991,16.22197,128,2.09527,320860,74250
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Irish,54,1133,653,57.6346,42,77.77778,32,59.25926,935,646
+202425,Academic year,National,E92000001,England,State-funded secondary,Total,Irish,7926,2734674,247358,9.04525,1967,24.81706,360,4.54201,620314,165173
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Irish Traveller,881,279612,73781,26.38692,657,74.57435,176,19.9773,201183,69296
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Irish Traveller,527,175959,24812,14.10101,221,41.93548,48,9.10816,68434,20361
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Irish Traveller,49,1401,941,67.16631,45,91.83673,35,71.42857,1297,936
+202425,Academic year,National,E92000001,England,State-funded secondary,Total,Irish Traveller,1457,456972,99534,21.7812,923,63.34935,259,17.77625,270914,90593
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Pakistani,48994,16971397,1617502,9.53075,15574,31.78757,1070,2.18394,5189415,1050912
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Pakistani,101649,35353057,2549800,7.21239,21670,21.31846,915,0.90016,7195847,1259782
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Pakistani,1758,51404,15612,30.37118,1195,67.97497,625,35.55176,33421,14977
+202425,Academic year,National,E92000001,England,State-funded secondary,Total,Pakistani,152401,52375858,4182914,7.98634,38439,25.22228,2610,1.71259,12418683,2325671
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Unclassified,26425,8018480,1198542,14.94725,11701,44.28004,2514,9.51372,3273622,985050
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Unclassified,54016,16564594,1299172,7.84307,11994,22.20453,1928,3.56931,3227844,802046
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Unclassified,3094,97467,37329,38.29912,2249,72.68908,1416,45.766,67978,36284
+202425,Academic year,National,E92000001,England,State-funded secondary,Total,Unclassified,83535,24680541,2535043,10.27142,25944,31.05764,5858,7.01263,6569444,1823380
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,White and Asian,13953,4789022,619053,12.9265,5426,38.88769,896,6.42156,1761867,484417
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,White and Asian,40015,14152498,833689,5.89076,5643,14.10221,612,1.52943,1860911,413946
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,White and Asian,544,15730,5708,36.28735,382,70.22059,223,40.99265,11122,5507
+202425,Academic year,National,E92000001,England,State-funded secondary,Total,White and Asian,54512,18957250,1458450,7.69336,11451,21.00638,1731,3.17545,3633900,903870
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,White and Black African,11779,4045078,494088,12.21455,4247,36.05569,690,5.85788,1379014,381585
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,White and Black African,19314,6734960,429874,6.38273,3148,16.29906,373,1.93124,1012668,231691
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,White and Black African,367,10500,3699,35.22857,258,70.29973,155,42.23433,6953,3570
+202425,Academic year,National,E92000001,England,State-funded secondary,Total,White and Black African,31460,10790538,927661,8.59699,7653,24.32613,1218,3.87158,2398635,616846
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,White and Black Caribbean,24825,8377584,1332763,15.90868,12120,48.82175,2182,8.78953,3896924,1117130
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,White and Black Caribbean,27014,9402918,794898,8.45374,6377,23.60628,870,3.22055,2059764,507118
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,White and Black Caribbean,705,21237,8957,42.17639,546,77.44681,318,45.10638,17110,8825
+202425,Academic year,National,E92000001,England,State-funded secondary,Total,White and Black Caribbean,52544,17801739,2136618,12.0023,19043,36.24201,3370,6.41367,5973798,1633073
+202425,Academic year,National,E92000001,England,State-funded secondary,Total,Total,3348969,1152567123,97235616,8.43644,782609,23.36865,129873,3.878,245722321,63324795
+202425,Academic year,National,E92000001,England,Total,Total,Total,7388150,2604665903,176654309,6.78223,1340437,18.14307,176361,2.38708,428059313,98576767
+202425,Academic year,National,E92000001,England,Special,FSM eligible,Total,72157,25366894,3751297,14.78816,29996,41.57046,5891,8.16414,10264053,3071298
+202425,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Total,1030357,368792563,28740119,7.79303,257627,25.00366,13697,1.32935,87788046,16852410
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Total,906785,308689664,41629034,13.48572,362425,39.96813,65623,7.23689,116781329,33130393
+202425,Academic year,National,E92000001,England,Total,FSM eligible,Total,2009299,702849121,74120450,10.54571,650048,32.35198,85211,4.24083,214833428,53054101
+202425,Academic year,National,E92000001,England,Special,FSM not eligible,Total,75455,26683997,2884177,10.80864,21889,29.00934,3983,5.27864,7417594,2092330
+202425,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Total,2819845,1030138660,43761147,4.24808,225631,8.00154,10261,0.36389,76307458,12968491
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Total,2406668,842875583,55202032,6.54925,393813,16.36341,47655,1.98012,128209165,29799331
+202425,Academic year,National,E92000001,England,Total,FSM not eligible,Total,5301968,1899698240,101847356,5.36124,641333,12.09613,61899,1.16747,211934217,44860152
+202425,Academic year,National,E92000001,England,Special,FSM unclassified,Total,788,18015,10153,56.35859,441,55.96447,379,48.09645,13197,10102
+202425,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Total,40579,1098651,271800,24.73943,22244,54.81653,12277,30.25457,546644,257341
+202425,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Total,35516,1001876,404550,40.37925,26371,74.25104,16595,46.72542,731827,395071
+202425,Academic year,National,E92000001,England,Total,FSM unclassified,Total,76883,2118542,686503,32.4045,49056,63.80604,29251,38.04612,1291668,662514
+202425,Academic year,National,E92000001,England,Total,FSM eligible,African,115844,40714008,2024828,4.9733,14317,12.35886,1020,0.88049,4578874,883159
+202425,Academic year,National,E92000001,England,Total,FSM not eligible,African,257602,88895651,2863871,3.22161,15792,6.13039,1238,0.48059,4605252,868906
+202425,Academic year,National,E92000001,England,Total,FSM unclassified,African,7789,198912,48095,24.17903,4178,53.63975,2362,30.32482,92395,45442
+202425,Academic year,National,E92000001,England,Total,Total,African,381235,129808571,4936794,3.80313,34287,8.99367,4620,1.21185,9276521,1797507
+202425,Academic year,National,E92000001,England,Total,FSM eligible,Any other Asian background,40663,14156269,936246,6.61365,7541,18.54511,469,1.15338,2436050,461681
+202425,Academic year,National,E92000001,England,Total,FSM not eligible,Any other Asian background,123247,43480165,2121539,4.87933,13699,11.11508,643,0.52172,4448305,758983
+202425,Academic year,National,E92000001,England,Total,FSM unclassified,Any other Asian background,2859,76651,19105,24.92466,1551,54.24974,799,27.94683,39034,18000
+202425,Academic year,National,E92000001,England,Total,Total,Any other Asian background,166769,57713085,3076890,5.33136,22791,13.66621,1911,1.1459,6923389,1238664
+202425,Academic year,National,E92000001,England,Total,FSM eligible,Any other Black / African / Caribbean background,23847,8352875,578711,6.92829,4899,20.54346,425,1.78219,1588087,338718
+202425,Academic year,National,E92000001,England,Total,FSM not eligible,Any other Black / African / Caribbean background,33899,11896877,513077,4.3127,3359,9.90885,228,0.67259,1058116,203366
+202425,Academic year,National,E92000001,England,Total,FSM unclassified,Any other Black / African / Caribbean background,913,24240,7361,30.36716,549,60.13143,314,34.39211,13509,7053
+202425,Academic year,National,E92000001,England,Total,Total,Any other Black / African / Caribbean background,58659,20273992,1099149,5.42147,8807,15.01389,967,1.64851,2659712,549137
+202425,Academic year,National,E92000001,England,Total,FSM eligible,Any other ethnic group,79168,27132609,1915196,7.05865,16395,20.70912,1150,1.45261,5153699,1001906
+202425,Academic year,National,E92000001,England,Total,FSM not eligible,Any other ethnic group,103866,36174983,2044009,5.65034,14811,14.25972,903,0.86939,4637938,836072
+202425,Academic year,National,E92000001,England,Total,FSM unclassified,Any other ethnic group,4068,112312,31576,28.11454,2377,58.43166,1310,32.20256,61389,30041
+202425,Academic year,National,E92000001,England,Total,Total,Any other ethnic group,187102,63419904,3990781,6.29263,33583,17.94903,3363,1.79742,9853026,1868019
+202425,Academic year,National,E92000001,England,Total,FSM eligible,Any other Mixed / Multiple ethnic background,64862,22699234,2216690,9.76548,20252,31.22321,2044,3.15131,6715514,1524289
+202425,Academic year,National,E92000001,England,Total,FSM not eligible,Any other Mixed / Multiple ethnic background,142861,51053327,2717388,5.32265,18041,12.62836,1366,0.95617,5936748,1168246
+202425,Academic year,National,E92000001,England,Total,FSM unclassified,Any other Mixed / Multiple ethnic background,2550,66197,20120,30.39413,1580,61.96078,912,35.76471,38454,19400
+202425,Academic year,National,E92000001,England,Total,Total,Any other Mixed / Multiple ethnic background,210273,73818758,4954198,6.7113,39873,18.96249,4322,2.05542,12690716,2711935
+202425,Academic year,National,E92000001,England,Total,FSM eligible,Any other White background,114415,40019263,3553710,8.88,32384,28.30398,2833,2.47607,10640176,2282550
+202425,Academic year,National,E92000001,England,Total,FSM not eligible,Any other White background,403508,144308286,7922665,5.4901,51736,12.82155,3657,0.9063,16948276,3232530
+202425,Academic year,National,E92000001,England,Total,FSM unclassified,Any other White background,6082,157258,53667,34.12672,3878,63.76192,2395,39.37849,96369,51982
+202425,Academic year,National,E92000001,England,Total,Total,Any other White background,524005,184484807,11530042,6.24986,87998,16.79335,8885,1.69559,27684821,5567062
+202425,Academic year,National,E92000001,England,Total,FSM eligible,Bangladeshi,45583,16309259,1219390,7.47667,10483,22.99761,454,0.99599,3637801,650713
+202425,Academic year,National,E92000001,England,Total,FSM not eligible,Bangladeshi,78087,27994115,1761881,6.29375,13083,16.75439,413,0.5289,4515125,741267
+202425,Academic year,National,E92000001,England,Total,FSM unclassified,Bangladeshi,1313,36044,8646,23.98735,775,59.02513,362,27.57045,20068,8161
+202425,Academic year,National,E92000001,England,Total,Total,Bangladeshi,124983,44339418,2989917,6.74325,24341,19.47545,1229,0.98333,8172994,1400141
+202425,Academic year,National,E92000001,England,Total,FSM eligible,Caribbean,32478,11273204,1059098,9.39483,10155,31.26732,837,2.57713,3314660,719597
+202425,Academic year,National,E92000001,England,Total,FSM not eligible,Caribbean,34234,12029655,696661,5.7912,5294,15.46416,356,1.0399,1710648,331782
+202425,Academic year,National,E92000001,England,Total,FSM unclassified,Caribbean,847,23033,7163,31.09886,548,64.69894,319,37.66234,14083,6916
+202425,Academic year,National,E92000001,England,Total,Total,Caribbean,67559,23325892,1762922,7.55779,15997,23.67856,1512,2.23804,5039391,1058295
+202425,Academic year,National,E92000001,England,Total,FSM eligible,Chinese,4478,1605309,48426,3.01662,222,4.95757,21,0.46896,71570,14433
+202425,Academic year,National,E92000001,England,Total,FSM not eligible,Chinese,52130,18653310,538891,2.88898,1981,3.80012,149,0.28582,618459,116772
+202425,Academic year,National,E92000001,England,Total,FSM unclassified,Chinese,723,17672,2323,13.14509,277,38.31259,132,18.25726,5427,2076
+202425,Academic year,National,E92000001,England,Total,Total,Chinese,57331,20276291,589640,2.90803,2480,4.32576,302,0.52677,695456,133281
+202425,Academic year,National,E92000001,England,Total,FSM eligible,English / Welsh / Scottish / Northern Irish / British,1175764,413238282,49118686,11.88629,425882,36.22172,63709,5.41852,141846015,37017565
+202425,Academic year,National,E92000001,England,Total,FSM not eligible,English / Welsh / Scottish / Northern Irish / British,3253873,1179422182,63950436,5.42218,380715,11.70036,44417,1.36505,127992197,29168747
+202425,Academic year,National,E92000001,England,Total,FSM unclassified,English / Welsh / Scottish / Northern Irish / British,30107,813884,320758,39.41078,21524,71.49168,13849,45.99927,575873,313646
+202425,Academic year,National,E92000001,England,Total,Total,English / Welsh / Scottish / Northern Irish / British,4459744,1593474348,113389880,7.11589,828121,18.5688,121975,2.73502,270414085,66499958
+202425,Academic year,National,E92000001,England,Total,FSM eligible,Gypsy Roma,16969,5596441,1037508,18.53871,10897,64.2171,1590,9.37003,3444957,920010
+202425,Academic year,National,E92000001,England,Total,FSM not eligible,Gypsy Roma,9869,3281139,496669,15.13709,5319,53.89604,696,7.05239,1679114,418376
+202425,Academic year,National,E92000001,England,Total,FSM unclassified,Gypsy Roma,830,27662,13397,48.43106,731,88.07229,467,56.26506,24612,13268
+202425,Academic year,National,E92000001,England,Total,Total,Gypsy Roma,27668,8905242,1547574,17.37824,16947,61.25126,2753,9.95012,5148683,1351654
+202425,Academic year,National,E92000001,England,Total,FSM eligible,Indian,23256,8280024,565437,6.82893,4570,19.65084,255,1.09649,1560734,298337
+202425,Academic year,National,E92000001,England,Total,FSM not eligible,Indian,269657,95377899,4496827,4.71475,28251,10.47664,873,0.32374,9165185,1449694
+202425,Academic year,National,E92000001,England,Total,FSM unclassified,Indian,4864,126667,25980,20.51047,2438,50.12336,1178,24.21875,54762,24053
+202425,Academic year,National,E92000001,England,Total,Total,Indian,297777,103784590,5088244,4.9027,35259,11.84074,2306,0.77441,10780681,1772084
+202425,Academic year,National,E92000001,England,Total,FSM eligible,Irish,3924,1333293,205565,15.41784,1973,50.28033,297,7.56881,642170,171972
+202425,Academic year,National,E92000001,England,Total,FSM not eligible,Irish,12778,4600986,255729,5.55813,1586,12.41196,182,1.42432,520180,115139
+202425,Academic year,National,E92000001,England,Total,FSM unclassified,Irish,134,2965,1391,46.914,96,71.64179,70,52.23881,2164,1368
+202425,Academic year,National,E92000001,England,Total,Total,Irish,16836,5937244,462685,7.79293,3655,21.70943,549,3.26087,1164514,288479
+202425,Academic year,National,E92000001,England,Total,FSM eligible,Irish Traveller,4360,1418141,323047,22.77961,3206,73.53211,580,13.30275,1015789,299962
+202425,Academic year,National,E92000001,England,Total,FSM not eligible,Irish Traveller,1831,600243,108139,18.01587,1042,56.90879,209,11.41453,320259,95828
+202425,Academic year,National,E92000001,England,Total,FSM unclassified,Irish Traveller,198,6893,3136,45.49543,171,86.36364,111,56.06061,6191,3110
+202425,Academic year,National,E92000001,England,Total,Total,Irish Traveller,6389,2025277,434322,21.44507,4419,69.16575,900,14.08671,1342239,398900
+202425,Academic year,National,E92000001,England,Total,FSM eligible,Pakistani,103737,36738936,3083482,8.39295,28578,27.54851,1462,1.40933,9729616,1814320
+202425,Academic year,National,E92000001,England,Total,FSM not eligible,Pakistani,226672,80440368,5418809,6.73643,43171,19.04558,1574,0.6944,14635748,2459583
+202425,Academic year,National,E92000001,England,Total,FSM unclassified,Pakistani,4374,121559,32874,27.04366,2603,59.51075,1372,31.36717,68824,31252
+202425,Academic year,National,E92000001,England,Total,Total,Pakistani,334783,117300863,8535165,7.2763,74352,22.20901,4408,1.31667,24434188,4305155
+202425,Academic year,National,E92000001,England,Total,FSM eligible,Unclassified,45108,13828747,1742406,12.59988,17530,38.86229,3078,6.82362,4957985,1351208
+202425,Academic year,National,E92000001,England,Total,FSM not eligible,Unclassified,101139,30750034,2089466,6.795,18729,18.51808,2648,2.61818,4945046,1163578
+202425,Academic year,National,E92000001,England,Total,FSM unclassified,Unclassified,5973,216276,60861,28.14043,3653,61.15855,2053,34.37134,121013,57723
+202425,Academic year,National,E92000001,England,Total,Total,Unclassified,152220,44795057,3892733,8.69009,39912,26.21994,7779,5.11037,10024044,2572509
+202425,Academic year,National,E92000001,England,Total,FSM eligible,White and Asian,30970,10852880,1114626,10.27032,9927,32.0536,1154,3.72619,3286680,781972
+202425,Academic year,National,E92000001,England,Total,FSM not eligible,White and Asian,93209,33699200,1656883,4.91668,9730,10.43891,794,0.85185,3270620,655308
+202425,Academic year,National,E92000001,England,Total,FSM unclassified,White and Asian,1186,32197,9522,29.57418,716,60.37099,410,34.56998,18609,9062
+202425,Academic year,National,E92000001,England,Total,Total,White and Asian,125365,44584277,2781031,6.23769,20373,16.25095,2358,1.88091,6575909,1446342
+202425,Academic year,National,E92000001,England,Total,FSM eligible,White and Black African,26410,9268428,898306,9.69211,7746,29.3298,924,3.49867,2558306,622713
+202425,Academic year,National,E92000001,England,Total,FSM not eligible,White and Black African,43414,15507340,786975,5.07485,4968,11.44331,473,1.08951,1616811,337826
+202425,Academic year,National,E92000001,England,Total,FSM unclassified,White and Black African,841,22527,6778,30.08834,521,61.95006,306,36.38526,13041,6485
+202425,Academic year,National,E92000001,England,Total,Total,White and Black African,70665,24798295,1692059,6.82329,13235,18.72922,1703,2.40996,4188158,967024
+202425,Academic year,National,E92000001,England,Total,FSM eligible,White and Black Caribbean,57463,20031919,2479092,12.37571,23091,40.18412,2909,5.06239,7654745,1898996
+202425,Academic year,National,E92000001,England,Total,FSM not eligible,White and Black Caribbean,60092,21532480,1407441,6.53636,10026,16.68442,1080,1.79724,3310190,738149
+202425,Academic year,National,E92000001,England,Total,FSM unclassified,White and Black Caribbean,1232,35593,13750,38.63119,890,72.24026,530,43.01948,25851,13476
+202425,Academic year,National,E92000001,England,Total,Total,White and Black Caribbean,118787,41599992,3900283,9.37568,34007,28.62855,4519,3.80429,10990786,2650621
+202324,Academic year,National,E92000001,England,Special,FSM eligible,African,3246,1163039,114243,9.8228,951,29.2976,118,3.63524,329723,80435
+202324,Academic year,National,E92000001,England,Special,FSM not eligible,African,3080,1099445,99564,9.05584,763,24.77273,110,3.57143,263031,68116
+202324,Academic year,National,E92000001,England,Special,FSM unclassified,African,34,620,298,48.06452,17,50,16,47.05882,333,292
+202324,Academic year,National,E92000001,England,Special,Total,African,6360,2263104,214105,9.46068,1731,27.21698,244,3.83648,593087,148843
+202324,Academic year,National,E92000001,England,Special,FSM eligible,Any other Asian background,856,310668,35906,11.55768,329,38.43458,29,3.38785,118198,26504
+202324,Academic year,National,E92000001,England,Special,FSM not eligible,Any other Asian background,1965,710452,78331,11.02552,687,34.96183,68,3.46056,242420,56879
+202324,Academic year,National,E92000001,England,Special,FSM unclassified,Any other Asian background,13,260,202,77.69231,9,69.23077,9,69.23077,218,202
+202324,Academic year,National,E92000001,England,Special,Total,Any other Asian background,2834,1021380,114439,11.20435,1025,36.16796,106,3.7403,360836,83585
+202324,Academic year,National,E92000001,England,Special,FSM eligible,Any other Black / African / Caribbean background,810,288697,32032,11.09537,264,32.59259,32,3.95062,92116,24127
+202324,Academic year,National,E92000001,England,Special,FSM not eligible,Any other Black / African / Caribbean background,724,260020,23680,9.10699,173,23.89503,30,4.14365,60066,15789
+202324,Academic year,National,E92000001,England,Special,FSM unclassified,Any other Black / African / Caribbean background,9,240,163,67.91667,7,77.77778,7,77.77778,174,163
+202324,Academic year,National,E92000001,England,Special,Total,Any other Black / African / Caribbean background,1543,548957,55875,10.17839,444,28.77511,69,4.47181,152356,40079
+202324,Academic year,National,E92000001,England,Special,FSM eligible,Any other ethnic group,1283,460138,55088,11.97206,505,39.36087,51,3.97506,177280,41089
+202324,Academic year,National,E92000001,England,Special,FSM not eligible,Any other ethnic group,1378,488663,56928,11.64975,523,37.95356,54,3.91872,180551,42633
+202324,Academic year,National,E92000001,England,Special,FSM unclassified,Any other ethnic group,15,468,206,44.01709,10,66.66667,10,66.66667,218,202
+202324,Academic year,National,E92000001,England,Special,Total,Any other ethnic group,2676,949269,112222,11.82194,1038,38.78924,115,4.29746,358049,83924
+202324,Academic year,National,E92000001,England,Special,FSM eligible,Any other Mixed / Multiple ethnic background,1849,660423,91504,13.85536,794,42.94213,118,6.38183,276819,72977
+202324,Academic year,National,E92000001,England,Special,FSM not eligible,Any other Mixed / Multiple ethnic background,2015,716998,77890,10.86335,637,31.6129,96,4.76427,219085,57056
+202324,Academic year,National,E92000001,England,Special,FSM unclassified,Any other Mixed / Multiple ethnic background,19,388,287,73.96907,14,73.68421,13,68.42105,357,286
+202324,Academic year,National,E92000001,England,Special,Total,Any other Mixed / Multiple ethnic background,3883,1377809,169681,12.31528,1445,37.21349,227,5.846,496261,130319
+202324,Academic year,National,E92000001,England,Special,FSM eligible,Any other White background,2050,733239,99641,13.58916,871,42.4878,117,5.70732,304140,79243
+202324,Academic year,National,E92000001,England,Special,FSM not eligible,Any other White background,3970,1422297,155078,10.90335,1297,32.67003,158,3.97985,451764,110557
+202324,Academic year,National,E92000001,England,Special,FSM unclassified,Any other White background,21,475,221,46.52632,13,61.90476,11,52.38095,384,219
+202324,Academic year,National,E92000001,England,Special,Total,Any other White background,6041,2156011,254940,11.82461,2181,36.10329,286,4.73432,756288,190019
+202324,Academic year,National,E92000001,England,Special,FSM eligible,Bangladeshi,986,356943,53849,15.08616,477,48.37728,54,5.47667,171732,44166
+202324,Academic year,National,E92000001,England,Special,FSM not eligible,Bangladeshi,1384,501074,62674,12.50793,613,44.29191,43,3.10694,219846,48738
+202324,Academic year,National,E92000001,England,Special,FSM unclassified,Bangladeshi,5,142,109,76.76056,3,60,3,60,109,109
+202324,Academic year,National,E92000001,England,Special,Total,Bangladeshi,2375,858159,116632,13.59095,1093,46.02105,100,4.21053,391687,93013
+202324,Academic year,National,E92000001,England,Special,FSM eligible,Caribbean,918,324267,42256,13.03124,371,40.41394,51,5.55556,128016,33535
+202324,Academic year,National,E92000001,England,Special,FSM not eligible,Caribbean,592,207488,21396,10.31192,184,31.08108,27,4.56081,61234,15523
+202324,Academic year,National,E92000001,England,Special,FSM unclassified,Caribbean,10,350,81,23.14286,5,50,4,40,147,81
+202324,Academic year,National,E92000001,England,Special,Total,Caribbean,1520,532105,63733,11.97752,560,36.84211,82,5.39474,189397,49139
+202324,Academic year,National,E92000001,England,Special,FSM eligible,Chinese,138,49962,3477,6.95929,24,17.3913,4,2.89855,8332,1889
+202324,Academic year,National,E92000001,England,Special,FSM not eligible,Chinese,364,132905,8824,6.63933,60,16.48352,6,1.64835,21211,4674
+202324,Academic year,National,E92000001,England,Special,FSM unclassified,Chinese,1,22,22,100,1,100,1,100,22,22
+202324,Academic year,National,E92000001,England,Special,Total,Chinese,503,182889,12323,6.73797,85,16.89861,11,2.18688,29565,6585
+202324,Academic year,National,E92000001,England,Special,FSM eligible,English / Welsh / Scottish / Northern Irish / British,46125,16350983,2549910,15.59484,20320,44.0542,4036,8.75014,7023178,2115820
+202324,Academic year,National,E92000001,England,Special,FSM not eligible,English / Welsh / Scottish / Northern Irish / British,46931,16715143,1825044,10.91851,13910,29.63926,2454,5.22895,4776728,1322068
+202324,Academic year,National,E92000001,England,Special,FSM unclassified,English / Welsh / Scottish / Northern Irish / British,385,9066,5685,62.70682,233,60.51948,205,53.24675,6886,5640
+202324,Academic year,National,E92000001,England,Special,Total,English / Welsh / Scottish / Northern Irish / British,93441,33075192,4380639,13.24449,34463,36.8821,6695,7.16495,11806792,3443528
+202324,Academic year,National,E92000001,England,Special,FSM eligible,Gypsy Roma,335,115744,28079,24.25957,224,66.86567,51,15.22388,76152,26045
+202324,Academic year,National,E92000001,England,Special,FSM not eligible,Gypsy Roma,169,59183,13275,22.43043,107,63.31361,27,15.97633,36632,12137
+202324,Academic year,National,E92000001,England,Special,FSM unclassified,Gypsy Roma,4,170,120,70.58824,3,75,3,75,166,120
+202324,Academic year,National,E92000001,England,Special,Total,Gypsy Roma,508,175097,41474,23.6863,334,65.74803,81,15.94488,112950,38302
+202324,Academic year,National,E92000001,England,Special,FSM eligible,Indian,453,165213,17768,10.7546,162,35.76159,10,2.20751,58548,12966
+202324,Academic year,National,E92000001,England,Special,FSM not eligible,Indian,2312,833952,83353,9.99494,726,31.40138,73,3.15744,257767,57865
+202324,Academic year,National,E92000001,England,Special,FSM unclassified,Indian,9,293,175,59.72696,5,55.55556,4,44.44444,249,175
+202324,Academic year,National,E92000001,England,Special,Total,Indian,2774,999458,101296,10.13509,893,32.19178,87,3.13627,316564,71006
+202324,Academic year,National,E92000001,England,Special,FSM eligible,Irish,168,58531,13386,22.86993,114,67.85714,25,14.88095,38509,12405
+202324,Academic year,National,E92000001,England,Special,FSM not eligible,Irish,147,52438,6335,12.08093,46,31.29252,9,6.12245,15795,4701
+202324,Academic year,National,E92000001,England,Special,FSM unclassified,Irish,5,80,3,3.75,1,20,1,20,2,2
+202324,Academic year,National,E92000001,England,Special,Total,Irish,320,111049,19724,17.76153,161,50.3125,35,10.9375,54306,17108
+202324,Academic year,National,E92000001,England,Special,FSM eligible,Irish Traveller,125,43385,13320,30.70186,98,78.4,25,20,33442,12776
+202324,Academic year,National,E92000001,England,Special,FSM not eligible,Irish Traveller,30,10765,2607,24.21737,16,53.33333,7,23.33333,5714,2341
+202324,Academic year,National,E92000001,England,Special,FSM unclassified,Irish Traveller,1,1,1,100,1,100,1,100,1,1
+202324,Academic year,National,E92000001,England,Special,Total,Irish Traveller,156,54151,15928,29.41405,115,73.71795,33,21.15385,39157,15118
+202324,Academic year,National,E92000001,England,Special,FSM eligible,Pakistani,2027,732303,108990,14.88318,1001,49.38333,102,5.03207,360025,89779
+202324,Academic year,National,E92000001,England,Special,FSM not eligible,Pakistani,3669,1329226,189786,14.27793,1654,45.0804,204,5.5601,594273,152024
+202324,Academic year,National,E92000001,England,Special,FSM unclassified,Pakistani,28,875,351,40.11429,11,39.28571,8,28.57143,760,349
+202324,Academic year,National,E92000001,England,Special,Total,Pakistani,5724,2062404,299127,14.5038,2666,46.57582,314,5.48567,955058,242152
+202324,Academic year,National,E92000001,England,Special,FSM eligible,Unclassified,1300,430572,76121,17.67904,655,50.38462,158,12.15385,209259,65581
+202324,Academic year,National,E92000001,England,Special,FSM not eligible,Unclassified,1644,512711,83272,16.24151,687,41.78832,204,12.40876,193136,69579
+202324,Academic year,National,E92000001,England,Special,FSM unclassified,Unclassified,108,1344,739,54.98512,36,33.33333,30,27.77778,879,733
+202324,Academic year,National,E92000001,England,Special,Total,Unclassified,3052,944627,160132,16.95188,1378,45.15072,392,12.84404,403274,135893
+202324,Academic year,National,E92000001,England,Special,FSM eligible,White and Asian,734,259577,39355,15.1612,331,45.09537,55,7.49319,114227,32804
+202324,Academic year,National,E92000001,England,Special,FSM not eligible,White and Asian,1065,385094,37832,9.82409,295,27.69953,40,3.75587,103961,25849
+202324,Academic year,National,E92000001,England,Special,FSM unclassified,White and Asian,12,271,204,75.27675,7,58.33333,7,58.33333,218,202
+202324,Academic year,National,E92000001,England,Special,Total,White and Asian,1811,644942,77391,11.99968,633,34.95306,102,5.63225,218406,58855
+202324,Academic year,National,E92000001,England,Special,FSM eligible,White and Black African,768,274631,40785,14.85084,322,41.92708,63,8.20313,112160,33550
+202324,Academic year,National,E92000001,England,Special,FSM not eligible,White and Black African,579,205293,21236,10.34424,164,28.3247,29,5.00864,54987,15278
+202324,Academic year,National,E92000001,England,Special,FSM unclassified,White and Black African,8,234,114,48.71795,5,62.5,4,50,207,114
+202324,Academic year,National,E92000001,England,Special,Total,White and Black African,1355,480158,62135,12.94053,491,36.23616,96,7.08487,167354,48942
+202324,Academic year,National,E92000001,England,Special,FSM eligible,White and Black Caribbean,1865,655958,117231,17.87172,933,50.02681,211,11.31367,319391,101644
+202324,Academic year,National,E92000001,England,Special,FSM not eligible,White and Black Caribbean,963,340113,43005,12.64433,308,31.98339,73,7.58048,105424,33144
+202324,Academic year,National,E92000001,England,Special,FSM unclassified,White and Black Caribbean,14,443,247,55.75621,10,71.42857,9,64.28571,383,247
+202324,Academic year,National,E92000001,England,Special,Total,White and Black Caribbean,2842,996514,160483,16.10444,1251,44.0183,293,10.30964,425198,135035
+202324,Academic year,National,E92000001,England,Special,Total,Total,139718,49433275,6432279,13.01204,51987,37.20852,9368,6.70493,17826585,5031445
+202324,Academic year,National,E92000001,England,State-funded primary,FSM eligible,African,56145,19955524,824341,4.13089,5348,9.52534,304,0.54146,1697622,289888
+202324,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,African,129931,44476154,1351610,3.03895,6988,5.37824,503,0.38713,1965934,349064
+202324,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,African,4613,127595,23442,18.37219,2126,46.08715,1117,24.21418,47498,21674
+202324,Academic year,National,E92000001,England,State-funded primary,Total,African,190689,64559273,2199393,3.40678,14462,7.58408,1924,1.00897,3711054,660626
+202324,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Any other Asian background,19505,6809377,403722,5.92891,3267,16.74955,146,0.74853,1051120,176158
+202324,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Any other Asian background,65908,23346973,1130687,4.84297,7159,10.86211,238,0.36111,2320565,361377
+202324,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Any other Asian background,1682,46239,10030,21.69165,844,50.17836,411,24.4352,21287,9458
+202324,Academic year,National,E92000001,England,State-funded primary,Total,Any other Asian background,87095,30202589,1544439,5.1136,11270,12.93989,795,0.9128,3392972,546993
+202324,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Any other Black / African / Caribbean background,11911,4257942,244945,5.75266,1997,16.76601,104,0.87314,666051,121319
+202324,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Any other Black / African / Caribbean background,18248,6498887,247507,3.80845,1426,7.81456,78,0.42744,458282,77512
+202324,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Any other Black / African / Caribbean background,555,15678,3638,23.20449,291,52.43243,166,29.90991,6948,3406
+202324,Academic year,National,E92000001,England,State-funded primary,Total,Any other Black / African / Caribbean background,30714,10772507,496090,4.60515,3714,12.09221,348,1.13303,1131281,202237
+202324,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Any other ethnic group,38243,13203171,815696,6.17803,6955,18.18633,290,0.75831,2165109,365841
+202324,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Any other ethnic group,57488,20256610,1076431,5.31397,7493,13.03402,344,0.59839,2379111,389753
+202324,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Any other ethnic group,2335,66272,16713,25.2188,1234,52.84797,675,28.90792,32579,15826
+202324,Academic year,National,E92000001,England,State-funded primary,Total,Any other ethnic group,98066,33526053,1908840,5.6936,15682,15.99127,1309,1.33482,4576799,771420
+202324,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Any other Mixed / Multiple ethnic background,32769,11670730,943584,8.08505,8924,27.23306,407,1.24203,3020159,567328
+202324,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Any other Mixed / Multiple ethnic background,76344,27712665,1314472,4.74322,7933,10.39112,261,0.34187,2697169,431330
+202324,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Any other Mixed / Multiple ethnic background,1392,37044,8772,23.67995,721,51.79598,398,28.59195,17834,8335
+202324,Academic year,National,E92000001,England,State-funded primary,Total,Any other Mixed / Multiple ethnic background,110505,39420439,2266828,5.75039,17578,15.90697,1066,0.96466,5735162,1006993
+202324,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Any other White background,60091,21270472,1645217,7.73475,15748,26.20692,666,1.10832,5255884,946474
+202324,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Any other White background,230327,83629566,4316709,5.1617,27121,11.775,1004,0.4359,9125882,1483377
+202324,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Any other White background,3690,101658,25316,24.90311,1969,53.36043,1157,31.35501,47962,23999
+202324,Academic year,National,E92000001,England,State-funded primary,Total,Any other White background,294108,105001696,5987242,5.70204,44838,15.24542,2827,0.96121,14429728,2453850
+202324,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Bangladeshi,21116,7702147,518982,6.73815,4577,21.67551,73,0.34571,1623944,252021
+202324,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Bangladeshi,43929,15983947,959803,6.00479,7303,16.62455,125,0.28455,2567757,388186
+202324,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Bangladeshi,753,21259,4145,19.49762,366,48.60558,171,22.70916,9432,3867
+202324,Academic year,National,E92000001,England,State-funded primary,Total,Bangladeshi,65798,23707353,1482930,6.25515,12246,18.61151,369,0.56081,4201133,644074
+202324,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Caribbean,15656,5586642,433380,7.75743,4221,26.96091,134,0.8559,1431715,258139
+202324,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Caribbean,16842,6077011,298972,4.91972,2090,12.40945,55,0.32656,704209,115026
+202324,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Caribbean,400,10513,3034,28.85951,234,58.5,140,35,5734,2923
+202324,Academic year,National,E92000001,England,State-funded primary,Total,Caribbean,32898,11674166,735386,6.29926,6545,19.89483,329,1.00006,2141658,376088
+202324,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Chinese,2452,873733,26680,3.05356,128,5.22023,4,0.16313,39855,5532
+202324,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Chinese,28211,10097714,339504,3.36219,1284,4.55142,35,0.12407,417716,61281
+202324,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Chinese,671,17986,1696,9.42956,185,27.57079,80,11.9225,3553,1421
+202324,Academic year,National,E92000001,England,State-funded primary,Total,Chinese,31334,10989433,367880,3.34758,1597,5.0967,119,0.37978,461124,68234
+202324,Academic year,National,E92000001,England,State-funded primary,FSM eligible,English / Welsh / Scottish / Northern Irish / British,616514,221981313,18989705,8.55464,179667,29.1424,8141,1.32049,62256088,11777523
+202324,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,English / Welsh / Scottish / Northern Irish / British,1762272,653515322,28814652,4.40918,143241,8.1282,4772,0.27079,50803755,8298379
+202324,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,English / Welsh / Scottish / Northern Irish / British,12680,339625,89226,26.27192,7247,57.153,4250,33.51735,177203,85162
+202324,Academic year,National,E92000001,England,State-funded primary,Total,English / Welsh / Scottish / Northern Irish / British,2391466,875836260,47893583,5.46833,330155,13.80555,17163,0.71768,113237046,20161064
+202324,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Gypsy Roma,9986,3415818,523219,15.31753,5922,59.30302,470,4.70659,1961693,443150
+202324,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Gypsy Roma,6919,2347206,335724,14.30313,3774,54.54545,293,4.23472,1232522,278905
+202324,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Gypsy Roma,399,13408,6362,47.44928,323,80.95238,220,55.13784,11255,6275
+202324,Academic year,National,E92000001,England,State-funded primary,Total,Gypsy Roma,17304,5776432,865305,14.97992,10019,57.89991,983,5.68077,3205470,728330
+202324,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Indian,10846,3917882,241380,6.16098,2010,18.53218,45,0.4149,695885,111041
+202324,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Indian,149173,52501747,2598511,4.94938,17592,11.79302,430,0.28826,5655055,846848
+202324,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Indian,3456,94215,17442,18.51298,1653,47.82986,726,21.00694,40454,16040
+202324,Academic year,National,E92000001,England,State-funded primary,Total,Indian,163475,56513844,2857333,5.05599,21255,13.00199,1201,0.73467,6391394,973929
+202324,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Irish,2106,728973,93494,12.82544,1036,49.19278,75,3.56125,340552,74376
+202324,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Irish,6616,2423191,113316,4.67631,621,9.38634,31,0.46856,205656,36890
+202324,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Irish,78,2088,788,37.73946,49,62.82051,36,46.15385,1246,764
+202324,Academic year,National,E92000001,England,State-funded primary,Total,Irish,8800,3154252,207598,6.58153,1706,19.38636,142,1.61364,547454,112030
+202324,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Irish Traveller,3253,1063830,236018,22.18569,2447,75.22287,355,10.913,779553,219349
+202324,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Irish Traveller,1390,444921,89277,20.06581,887,63.81295,166,11.94245,264275,80683
+202324,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Irish Traveller,128,4837,2443,50.50651,115,89.84375,81,63.28125,4253,2409
+202324,Academic year,National,E92000001,England,State-funded primary,Total,Irish Traveller,4771,1513588,327738,21.65305,3449,72.29092,602,12.6179,1048081,302441
+202324,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Pakistani,47179,17001013,1281736,7.53917,12236,25.93527,226,0.47903,4307841,690172
+202324,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Pakistani,123847,44779035,2849789,6.36411,22942,18.52447,422,0.34074,8033780,1214253
+202324,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Pakistani,2259,64018,15023,23.46684,1154,51.08455,621,27.49004,31306,14220
+202324,Academic year,National,E92000001,England,State-funded primary,Total,Pakistani,173285,61844066,4146548,6.70484,36332,20.96662,1269,0.73232,12372927,1918645
+202324,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Unclassified,17243,5324334,480360,9.02197,5371,31.14887,401,2.32558,1549624,315879
+202324,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Unclassified,60045,16006551,853580,5.33269,8242,13.72637,599,0.99759,1972184,368094
+202324,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Unclassified,3598,161880,26040,16.08599,1617,44.94163,631,17.53752,62979,23242
+202324,Academic year,National,E92000001,England,State-funded primary,Total,Unclassified,80886,21492765,1359980,6.32762,15230,18.82897,1631,2.01642,3584787,707215
+202324,Academic year,National,E92000001,England,State-funded primary,FSM eligible,White and Asian,15564,5564028,455377,8.1843,4349,27.94269,173,1.11154,1493166,273687
+202324,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,White and Asian,51767,19014020,838007,4.40731,4547,8.78359,127,0.24533,1584158,243313
+202324,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,White and Asian,544,14594,3792,25.98328,293,53.86029,169,31.06618,7565,3658
+202324,Academic year,National,E92000001,England,State-funded primary,Total,White and Asian,67875,24592642,1297176,5.27465,9189,13.53812,469,0.69098,3084889,520658
+202324,Academic year,National,E92000001,England,State-funded primary,FSM eligible,White and Black African,13647,4891220,357431,7.3076,3274,23.99062,134,0.9819,1122459,206083
+202324,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,White and Black African,23526,8524400,356224,4.17887,1923,8.17394,74,0.31455,645952,104501
+202324,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,White and Black African,491,13584,3185,23.4467,245,49.89817,151,30.75356,5942,3022
+202324,Academic year,National,E92000001,England,State-funded primary,Total,White and Black African,37664,13429204,716840,5.33792,5442,14.44881,359,0.95316,1774353,313606
+202324,Academic year,National,E92000001,England,State-funded primary,FSM eligible,White and Black Caribbean,30291,10843710,1029894,9.49762,10205,33.68987,534,1.7629,3506228,685957
+202324,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,White and Black Caribbean,32263,11864873,602406,5.07722,3772,11.69141,105,0.32545,1322532,215787
+202324,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,White and Black Caribbean,540,14618,4689,32.07689,346,64.07407,203,37.59259,8503,4500
+202324,Academic year,National,E92000001,England,State-funded primary,Total,White and Black Caribbean,63094,22723201,1636989,7.20404,14323,22.70105,842,1.33452,4837263,906244
+202324,Academic year,National,E92000001,England,State-funded primary,Total,Total,3949827,1416729763,78298118,5.52668,575032,14.55841,33747,0.85439,189864575,33374677
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,African,50607,17439642,958809,5.49787,7518,14.85565,550,1.08681,2373108,462952
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,African,102749,34788521,1316917,3.78549,8544,8.31541,533,0.51874,2540744,459891
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,African,2017,59958,15684,26.15831,1172,58.1061,629,31.18493,30859,14680
+202324,Academic year,National,E92000001,England,State-funded secondary,Total,African,155373,52288121,2291410,4.38228,17234,11.09202,1712,1.10186,4944711,937523
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Any other Asian background,16407,5591492,429196,7.67588,3873,23.60578,301,1.83458,1218952,249320
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Any other Asian background,53100,18387869,955250,5.195,6903,13,348,0.65537,2204922,389285
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Any other Asian background,802,23461,6788,28.93312,503,62.7182,274,34.16459,14262,6483
+202324,Academic year,National,E92000001,England,State-funded secondary,Total,Any other Asian background,70309,24002822,1391234,5.79613,11279,16.04204,923,1.31278,3438136,645088
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Any other Black / African / Caribbean background,10025,3423051,281570,8.2257,2530,25.23691,286,2.85287,807371,186576
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Any other Black / African / Caribbean background,15393,5277244,264419,5.01055,2007,13.03839,145,0.94199,626675,122043
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Any other Black / African / Caribbean background,311,8574,2645,30.84908,192,61.73633,109,35.04823,5077,2567
+202324,Academic year,National,E92000001,England,State-funded secondary,Total,Any other Black / African / Caribbean background,25729,8708869,548634,6.29972,4729,18.38004,540,2.0988,1439123,311186
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Any other ethnic group,31635,10677371,901996,8.44773,8512,26.90691,660,2.0863,2684555,552020
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Any other ethnic group,45217,15382637,999289,6.49621,8326,18.41343,603,1.33357,2591614,497332
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Any other ethnic group,1216,34660,11836,34.14887,817,67.1875,466,38.32237,22729,11451
+202324,Academic year,National,E92000001,England,State-funded secondary,Total,Any other ethnic group,78068,26094668,1913121,7.33146,17655,22.6149,1729,2.21474,5298898,1060803
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Any other Mixed / Multiple ethnic background,25862,8793160,1067228,12.13702,9957,38.5005,1373,5.30895,3217108,820629
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Any other Mixed / Multiple ethnic background,61854,21529004,1415839,6.57643,10966,17.72885,985,1.59246,3558907,749869
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Any other Mixed / Multiple ethnic background,1039,29645,9492,32.01889,692,66.6025,385,37.05486,19490,9225
+202324,Academic year,National,E92000001,England,State-funded secondary,Total,Any other Mixed / Multiple ethnic background,88755,30351809,2492559,8.21223,21615,24.35356,2743,3.09053,6795505,1579723
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Any other White background,46387,15791806,1829908,11.58771,17491,37.70669,2019,4.35251,5669075,1359755
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Any other White background,183851,64021086,4444697,6.94255,35522,19.32108,2677,1.45607,11565326,2314591
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Any other White background,2457,67948,24957,36.72956,1685,68.57957,1100,44.77004,44343,24258
+202324,Academic year,National,E92000001,England,State-funded secondary,Total,Any other White background,232695,79880840,6299562,7.8862,54698,23.50631,5796,2.49081,17278744,3698604
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Bangladeshi,19497,6870152,551827,8.03224,4957,25.42442,243,1.24635,1703047,326289
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Bangladeshi,36585,12938885,815372,6.30172,6372,17.41697,210,0.57401,2179449,369819
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Bangladeshi,400,10933,2527,23.11351,219,54.75,114,28.5,5622,2398
+202324,Academic year,National,E92000001,England,State-funded secondary,Total,Bangladeshi,56482,19819970,1369726,6.91084,11548,20.44545,567,1.00386,3888118,698506
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Caribbean,15490,5212447,567702,10.89128,5584,36.04906,585,3.77663,1777528,415969
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Caribbean,19239,6550556,444051,6.77883,3880,20.16737,279,1.45018,1218559,243801
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Caribbean,372,11429,3664,32.0588,241,64.78495,135,36.29032,7158,3523
+202324,Academic year,National,E92000001,England,State-funded secondary,Total,Caribbean,35101,11774432,1015417,8.62391,9705,27.64878,999,2.84607,3003245,663293
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Chinese,1835,647733,23031,3.55563,115,6.26703,16,0.87193,35800,8205
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Chinese,22812,8009688,254054,3.17183,1170,5.12888,90,0.39453,362401,68733
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Chinese,281,6879,1203,17.48801,130,46.26335,69,24.55516,2632,1107
+202324,Academic year,National,E92000001,England,State-funded secondary,Total,Chinese,24928,8664300,278288,3.21189,1415,5.67635,175,0.70202,400833,78045
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,English / Welsh / Scottish / Northern Irish / British,499735,169403112,28628557,16.89966,251883,50.40331,49983,10.0019,81884328,24414111
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,English / Welsh / Scottish / Northern Irish / British,1562279,549795767,41339276,7.51902,310611,19.88192,37662,2.41071,102958443,24161588
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,English / Welsh / Scottish / Northern Irish / British,16825,503801,219590,43.58665,12874,76.51709,8281,49.21842,388932,215950
+202324,Academic year,National,E92000001,England,State-funded secondary,Total,English / Welsh / Scottish / Northern Irish / British,2078839,719702680,70187423,9.75228,575368,27.67737,95926,4.6144,185231703,48791649
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Gypsy Roma,5553,1796009,447262,24.9031,4257,76.66126,873,15.72123,1348977,421218
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Gypsy Roma,3738,1199200,220756,18.40861,2327,62.25254,357,9.55056,715114,196484
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Gypsy Roma,274,7777,4455,57.2843,240,87.59124,167,60.94891,7119,4438
+202324,Academic year,National,E92000001,England,State-funded secondary,Total,Gypsy Roma,9565,3002986,672473,22.39348,6824,71.34344,1397,14.60533,2071210,622140
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Indian,10613,3726679,293137,7.8659,2541,23.94233,182,1.71488,863160,176410
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Indian,107852,37703108,1851366,4.91038,12517,11.60572,390,0.36161,4085785,660606
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Indian,1103,29779,6591,22.13305,600,54.3971,292,26.47325,14400,6129
+202324,Academic year,National,E92000001,England,State-funded secondary,Total,Indian,119568,41459566,2151094,5.18841,15658,13.09548,864,0.7226,4963345,843145
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Irish,1820,604017,112344,18.59948,1035,56.86813,200,10.98901,330445,98582
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Irish,6380,2235150,159985,7.15769,1207,18.9185,135,2.11599,394434,86814
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Irish,80,2512,943,37.53981,53,66.25,35,43.75,1587,905
+202324,Academic year,National,E92000001,England,State-funded secondary,Total,Irish,8280,2841679,273272,9.61657,2295,27.71739,370,4.4686,726466,186301
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Irish Traveller,912,282052,81277,28.81632,690,75.65789,216,23.68421,206713,77051
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Irish Traveller,562,192966,26004,13.47595,237,42.17082,40,7.11744,77515,21130
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Irish Traveller,41,1078,536,49.72171,34,82.92683,24,58.53659,810,534
+202324,Academic year,National,E92000001,England,State-funded secondary,Total,Irish Traveller,1515,476096,107817,22.64606,961,63.43234,280,18.48185,285038,98715
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Pakistani,43432,15127818,1515421,10.01745,15068,34.69331,965,2.22186,5092308,1028700
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Pakistani,106038,37138027,2772812,7.46623,24924,23.50478,962,0.90722,8421767,1466928
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Pakistani,1478,42658,12699,29.76933,994,67.25304,536,36.26522,27795,12153
+202324,Academic year,National,E92000001,England,State-funded secondary,Total,Pakistani,150948,52308503,4300932,8.22224,40986,27.1524,2463,1.63169,13541870,2507781
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Unclassified,24507,7526019,1164191,15.46888,11338,46.26433,2337,9.53605,3296458,970498
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Unclassified,63572,18363769,1474260,8.02809,14278,22.45957,1955,3.07525,3894452,929193
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Unclassified,2991,100739,34454,34.20125,2050,68.53895,1209,40.42126,65011,33255
+202324,Academic year,National,E92000001,England,State-funded secondary,Total,Unclassified,91070,25990527,2672905,10.28415,27666,30.37883,5501,6.04041,7255921,1932946
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,White and Asian,12745,4361341,584101,13.39269,5297,41.5614,858,6.73205,1727640,464366
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,White and Asian,39509,13930617,880084,6.31762,6413,16.23174,565,1.43005,2116399,448648
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,White and Asian,469,14401,5069,35.19894,309,65.88486,173,36.88699,9900,4911
+202324,Academic year,National,E92000001,England,State-funded secondary,Total,White and Asian,52723,18306359,1469254,8.02592,12019,22.7965,1596,3.02714,3853939,917925
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,White and Black African,11096,3792738,480150,12.65972,4213,37.96864,675,6.08327,1373550,373911
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,White and Black African,19726,6868743,465756,6.7808,3581,18.15371,381,1.93146,1161808,258713
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,White and Black African,330,9319,3323,35.65833,218,66.06061,135,40.90909,6050,3220
+202324,Academic year,National,E92000001,England,State-funded secondary,Total,White and Black African,31152,10670800,949229,8.89557,8012,25.71905,1191,3.82319,2541408,635844
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,White and Black Caribbean,23744,7996423,1337658,16.7282,12336,51.95418,2199,9.26129,3985206,1137918
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,White and Black Caribbean,28657,9903603,874258,8.82768,7485,26.11927,894,3.11966,2425086,565800
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,White and Black Caribbean,684,20705,8245,39.8213,515,75.2924,289,42.25146,16383,8105
+202324,Academic year,National,E92000001,England,State-funded secondary,Total,White and Black Caribbean,53085,17920731,2220161,12.38879,20336,38.30837,3382,6.37091,6426675,1711823
+202324,Academic year,National,E92000001,England,State-funded secondary,Total,Total,3364185,1154265758,102604511,8.88916,860003,25.56349,128154,3.80936,273384888,67921040
+202324,Academic year,National,E92000001,England,Total,Total,Total,7453730,2620428796,187334908,7.14902,1487022,19.95004,171269,2.29776,481076048,106327162
+202324,Academic year,National,E92000001,England,Special,FSM eligible,Total,66036,23434273,3532941,15.07596,28746,43.5308,5310,8.04107,9951247,2907335
+202324,Academic year,National,E92000001,England,State-funded primary,FSM eligible,Total,1024517,366061859,29545161,8.07108,277682,27.1037,12682,1.23785,94964548,17779917
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM eligible,Total,851902,289063062,41255365,14.2721,369195,43.33773,64521,7.57376,119595329,33544480
+202324,Academic year,National,E92000001,England,Total,FSM eligible,Total,1942455,678559194,74333467,10.9546,675623,34.78191,82513,4.24787,224511124,54231732
+202324,Academic year,National,E92000001,England,Special,FSM not eligible,Total,72981,25983260,2890110,11.12297,22850,31.30952,3712,5.08626,7863625,2114951
+202324,Academic year,National,E92000001,England,State-funded primary,FSM not eligible,Total,2885046,1049500793,48487181,4.62002,276338,9.57829,9662,0.3349,94356494,15344559
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM not eligible,Total,2479113,864216440,60974445,7.05546,467270,18.84827,49211,1.98502,153099400,34011268
+202324,Academic year,National,E92000001,England,Total,FSM not eligible,Total,5437140,1939700493,112351736,5.79222,766458,14.09671,62585,1.15106,255319519,51470778
+202324,Academic year,National,E92000001,England,Special,FSM unclassified,Total,701,15742,9228,58.62025,391,55.77746,346,49.35806,11713,9159
+202324,Academic year,National,E92000001,England,State-funded primary,FSM unclassified,Total,40264,1167111,265776,22.77213,21012,52.18558,11403,28.32058,543533,250201
+202324,Academic year,National,E92000001,England,State-funded secondary,FSM unclassified,Total,33170,986256,374701,37.99227,23538,70.96171,14422,43.47905,690159,365292
+202324,Academic year,National,E92000001,England,Total,FSM unclassified,Total,74135,2169109,649705,29.95262,44941,60.62049,26171,35.30181,1245405,624652
+202324,Academic year,National,E92000001,England,Total,FSM eligible,African,109998,38558205,1897393,4.92085,13817,12.56114,972,0.88365,4400453,833275
+202324,Academic year,National,E92000001,England,Total,FSM not eligible,African,235760,80364120,2768091,3.44444,16295,6.91169,1146,0.48609,4769709,877071
+202324,Academic year,National,E92000001,England,Total,FSM unclassified,African,6664,188173,39424,20.95093,3315,49.7449,1762,26.44058,78690,36646
+202324,Academic year,National,E92000001,England,Total,Total,African,352422,119110498,4704908,3.95004,33427,9.48494,3880,1.10095,9248852,1746992
+202324,Academic year,National,E92000001,England,Total,FSM eligible,Any other Asian background,36768,12711537,868824,6.83492,7469,20.31386,476,1.2946,2388270,451982
+202324,Academic year,National,E92000001,England,Total,FSM not eligible,Any other Asian background,120973,42445294,2164268,5.09896,14749,12.19198,654,0.54062,4767907,807541
+202324,Academic year,National,E92000001,England,Total,FSM unclassified,Any other Asian background,2497,69960,17020,24.32819,1356,54.30517,694,27.79335,35767,16143
+202324,Academic year,National,E92000001,England,Total,Total,Any other Asian background,160238,55226791,3050112,5.52288,23574,14.71187,1824,1.13831,7191944,1275666
+202324,Academic year,National,E92000001,England,Total,FSM eligible,Any other Black / African / Caribbean background,22746,7969690,558547,7.00839,4791,21.06304,422,1.85527,1565538,332022
+202324,Academic year,National,E92000001,England,Total,FSM not eligible,Any other Black / African / Caribbean background,34365,12036151,535606,4.44998,3606,10.49323,253,0.73621,1145023,215344
+202324,Academic year,National,E92000001,England,Total,FSM unclassified,Any other Black / African / Caribbean background,875,24492,6446,26.3188,490,56,282,32.22857,12199,6136
+202324,Academic year,National,E92000001,England,Total,Total,Any other Black / African / Caribbean background,57986,20030333,1100599,5.49466,8887,15.32611,957,1.6504,2722760,553502
+202324,Academic year,National,E92000001,England,Total,FSM eligible,Any other ethnic group,71161,24340680,1772780,7.2832,15972,22.44488,1001,1.40667,5026944,958950
+202324,Academic year,National,E92000001,England,Total,FSM not eligible,Any other ethnic group,104083,36127910,2132648,5.90305,16342,15.70093,1001,0.96173,5151276,929718
+202324,Academic year,National,E92000001,England,Total,FSM unclassified,Any other ethnic group,3566,101400,28755,28.35799,2061,57.79585,1151,32.27706,55526,27479
+202324,Academic year,National,E92000001,England,Total,Total,Any other ethnic group,178810,60569990,3934183,6.49527,34375,19.22432,3153,1.76332,10233746,1916147
+202324,Academic year,National,E92000001,England,Total,FSM eligible,Any other Mixed / Multiple ethnic background,60480,21124313,2102316,9.95212,19675,32.53142,1898,3.13823,6514086,1460934
+202324,Academic year,National,E92000001,England,Total,FSM not eligible,Any other Mixed / Multiple ethnic background,140213,49958667,2808201,5.62105,19536,13.93309,1342,0.95712,6475161,1238255
+202324,Academic year,National,E92000001,England,Total,FSM unclassified,Any other Mixed / Multiple ethnic background,2450,67077,18551,27.65628,1427,58.2449,796,32.4898,37681,17846
+202324,Academic year,National,E92000001,England,Total,Total,Any other Mixed / Multiple ethnic background,203143,71150057,4929068,6.92771,40638,20.00463,4036,1.98678,13026928,2717035
+202324,Academic year,National,E92000001,England,Total,FSM eligible,Any other White background,108528,37795517,3574766,9.45817,34110,31.42968,2802,2.58182,11229099,2385472
+202324,Academic year,National,E92000001,England,Total,FSM not eligible,Any other White background,418148,149072949,8916484,5.98129,63940,15.29124,3839,0.9181,21142972,3908525
+202324,Academic year,National,E92000001,England,Total,FSM unclassified,Any other White background,6168,170081,50494,29.68821,3667,59.45201,2268,36.77043,92689,48476
+202324,Academic year,National,E92000001,England,Total,Total,Any other White background,532844,187038547,12541744,6.70543,101717,19.08945,8909,1.67197,32464760,6342473
+202324,Academic year,National,E92000001,England,Total,FSM eligible,Bangladeshi,41599,14929242,1124658,7.53326,10011,24.06548,370,0.88944,3498723,622476
+202324,Academic year,National,E92000001,England,Total,FSM not eligible,Bangladeshi,81898,29423906,1837849,6.24611,14288,17.44609,378,0.46155,4967052,806743
+202324,Academic year,National,E92000001,England,Total,FSM unclassified,Bangladeshi,1158,32334,6781,20.97173,588,50.7772,288,24.87047,15163,6374
+202324,Academic year,National,E92000001,England,Total,Total,Bangladeshi,124655,44385482,2969288,6.68977,24887,19.9647,1036,0.83109,8480938,1435593
+202324,Academic year,National,E92000001,England,Total,FSM eligible,Caribbean,32064,11123356,1043338,9.37971,10176,31.73653,770,2.40145,3337259,707643
+202324,Academic year,National,E92000001,England,Total,FSM not eligible,Caribbean,36673,12835055,764419,5.95571,6154,16.78074,361,0.98438,1984002,374350
+202324,Academic year,National,E92000001,England,Total,FSM unclassified,Caribbean,782,22292,6779,30.41001,480,61.38107,279,35.67775,13039,6527
+202324,Academic year,National,E92000001,England,Total,Total,Caribbean,69519,23980703,1814536,7.56665,16810,24.18044,1410,2.02822,5334300,1088520
+202324,Academic year,National,E92000001,England,Total,FSM eligible,Chinese,4425,1571428,53188,3.38469,267,6.0339,24,0.54237,83987,15626
+202324,Academic year,National,E92000001,England,Total,FSM not eligible,Chinese,51387,18240307,602382,3.30248,2514,4.89229,131,0.25493,801328,134688
+202324,Academic year,National,E92000001,England,Total,FSM unclassified,Chinese,953,24887,2921,11.73705,316,33.15845,150,15.73977,6207,2550
+202324,Academic year,National,E92000001,England,Total,Total,Chinese,56765,19836622,658491,3.31957,3097,5.45583,305,0.5373,891522,152864
+202324,Academic year,National,E92000001,England,Total,FSM eligible,English / Welsh / Scottish / Northern Irish / British,1162374,407735408,50168172,12.3041,451870,38.87475,62160,5.34768,151163594,38307454
+202324,Academic year,National,E92000001,England,Total,FSM not eligible,English / Welsh / Scottish / Northern Irish / British,3371482,1220026232,71978972,5.89979,467762,13.87408,44888,1.3314,158538926,33782035
+202324,Academic year,National,E92000001,England,Total,FSM unclassified,English / Welsh / Scottish / Northern Irish / British,29890,852492,314501,36.89196,20354,68.09635,12736,42.60957,573021,306752
+202324,Academic year,National,E92000001,England,Total,Total,English / Welsh / Scottish / Northern Irish / British,4563746,1628614132,122461645,7.51938,939986,20.59681,119784,2.62469,310275541,72396241
+202324,Academic year,National,E92000001,England,Total,FSM eligible,Gypsy Roma,15874,5327571,998560,18.74325,10403,65.53484,1394,8.78166,3386822,890413
+202324,Academic year,National,E92000001,England,Total,FSM not eligible,Gypsy Roma,10826,3605589,569755,15.802,6208,57.34343,677,6.25346,1984268,487526
+202324,Academic year,National,E92000001,England,Total,FSM unclassified,Gypsy Roma,677,21355,10937,51.21517,566,83.60414,390,57.60709,18540,10833
+202324,Academic year,National,E92000001,England,Total,Total,Gypsy Roma,27377,8954515,1579252,17.63638,17177,62.74245,2461,8.9893,5389630,1388772
+202324,Academic year,National,E92000001,England,Total,FSM eligible,Indian,21912,7809774,552285,7.07172,4713,21.50876,237,1.0816,1617593,300417
+202324,Academic year,National,E92000001,England,Total,FSM not eligible,Indian,259337,91038807,4533230,4.97945,30835,11.88993,893,0.34434,9998607,1565319
+202324,Academic year,National,E92000001,England,Total,FSM unclassified,Indian,4568,124287,24208,19.4775,2258,49.43082,1022,22.37303,55103,22344
+202324,Academic year,National,E92000001,England,Total,Total,Indian,285817,98972868,5109723,5.16275,37806,13.22734,2152,0.75293,11671303,1888080
+202324,Academic year,National,E92000001,England,Total,FSM eligible,Irish,4094,1391521,219224,15.75427,2185,53.37079,300,7.3278,709506,185363
+202324,Academic year,National,E92000001,England,Total,FSM not eligible,Irish,13143,4710779,279636,5.93609,1874,14.25854,175,1.33151,615885,128405
+202324,Academic year,National,E92000001,England,Total,FSM unclassified,Irish,163,4680,1734,37.05128,103,63.19018,72,44.17178,2835,1671
+202324,Academic year,National,E92000001,England,Total,Total,Irish,17400,6106980,500594,8.19708,4162,23.91954,547,3.14368,1328226,315439
+202324,Academic year,National,E92000001,England,Total,FSM eligible,Irish Traveller,4290,1389267,330615,23.7978,3235,75.40793,596,13.89277,1019708,309176
+202324,Academic year,National,E92000001,England,Total,FSM not eligible,Irish Traveller,1982,648652,117888,18.17431,1140,57.51766,213,10.74672,347504,104154
+202324,Academic year,National,E92000001,England,Total,FSM unclassified,Irish Traveller,170,5916,2980,50.37187,150,88.23529,106,62.35294,5064,2944
+202324,Academic year,National,E92000001,England,Total,Total,Irish Traveller,6442,2043835,451483,22.08999,4525,70.24216,915,14.20366,1372276,416274
+202324,Academic year,National,E92000001,England,Total,FSM eligible,Pakistani,92638,32861134,2906147,8.84372,28305,30.55442,1293,1.39576,9760174,1808651
+202324,Academic year,National,E92000001,England,Total,FSM not eligible,Pakistani,233554,83246288,5812387,6.98216,49520,21.20281,1588,0.67993,17049820,2833205
+202324,Academic year,National,E92000001,England,Total,FSM unclassified,Pakistani,3765,107551,28073,26.10204,2159,57.34396,1165,30.9429,59861,26722
+202324,Academic year,National,E92000001,England,Total,Total,Pakistani,329957,116214973,8746607,7.52623,79984,24.24073,4046,1.22622,26869855,4668578
+202324,Academic year,National,E92000001,England,Total,FSM eligible,Unclassified,43050,13280925,1720672,12.95597,17364,40.33449,2896,6.72706,5055341,1351958
+202324,Academic year,National,E92000001,England,Total,FSM not eligible,Unclassified,125261,34883031,2411112,6.91199,23207,18.52692,2758,2.2018,6059772,1366866
+202324,Academic year,National,E92000001,England,Total,FSM unclassified,Unclassified,6697,263963,61233,23.19757,3703,55.29341,1870,27.92295,128869,57230
+202324,Academic year,National,E92000001,England,Total,Total,Unclassified,175008,48427919,4193017,8.65826,44274,25.29827,7524,4.29923,11243982,2776054
+202324,Academic year,National,E92000001,England,Total,FSM eligible,White and Asian,29043,10184946,1078833,10.59243,9977,34.35251,1086,3.73928,3335033,770857
+202324,Academic year,National,E92000001,England,Total,FSM not eligible,White and Asian,92341,33329731,1755923,5.26834,11255,12.18852,732,0.79271,3804518,717810
+202324,Academic year,National,E92000001,England,Total,FSM unclassified,White and Asian,1025,29266,9065,30.97451,609,59.41463,349,34.04878,17683,8771
+202324,Academic year,National,E92000001,England,Total,Total,White and Asian,122409,43543943,2843821,6.53092,21841,17.84264,2167,1.77029,7157234,1497438
+202324,Academic year,National,E92000001,England,Total,FSM eligible,White and Black African,25511,8958589,878366,9.80474,7809,30.61032,872,3.41813,2608169,613544
+202324,Academic year,National,E92000001,England,Total,FSM not eligible,White and Black African,43831,15598436,843216,5.40577,5668,12.93149,484,1.10424,1862747,378492
+202324,Academic year,National,E92000001,England,Total,FSM unclassified,White and Black African,829,23137,6622,28.62082,468,56.45356,290,34.98191,12199,6356
+202324,Academic year,National,E92000001,England,Total,Total,White and Black African,70171,24580162,1728204,7.03089,13945,19.87288,1646,2.3457,4483115,998392
+202324,Academic year,National,E92000001,England,Total,FSM eligible,White and Black Caribbean,55900,19496091,2484783,12.74503,23474,41.99284,2944,5.26655,7810825,1925519
+202324,Academic year,National,E92000001,England,Total,FSM not eligible,White and Black Caribbean,61883,22108589,1519669,6.87366,11565,18.68849,1072,1.7323,3853042,814731
+202324,Academic year,National,E92000001,England,Total,FSM unclassified,White and Black Caribbean,1238,35766,13181,36.85344,871,70.35541,501,40.4685,25269,12852
+202324,Academic year,National,E92000001,England,Total,Total,White and Black Caribbean,119021,41640446,4017633,9.64839,35910,30.17115,4517,3.79513,11689136,2753102

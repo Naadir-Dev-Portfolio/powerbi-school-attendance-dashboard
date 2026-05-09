@@ -1,0 +1,196 @@
+table 'Fact Ethnicity FSM Absence'
+	lineageTag: 4fb0c78b-7238-4abc-b5eb-bc87440b0658
+
+	measure 'Ethnicity FSM Absence Rate' = DIVIDE(SUM('Fact Ethnicity FSM Absence'[OverallAbsenceSessions]), SUM('Fact Ethnicity FSM Absence'[SessionsPossible]))
+		formatString: 0.0%
+		lineageTag: 0dff6714-5c1b-42f1-8236-971b457a637f
+
+	measure 'Ethnicity FSM Attendance Rate' = 1 - [Ethnicity FSM Absence Rate]
+		formatString: 0.0%
+		lineageTag: 195a957c-18f5-496e-a301-a08e57f860bc
+
+	measure 'Ethnicity FSM Persistent Absence Rate' = DIVIDE(SUM('Fact Ethnicity FSM Absence'[PersistentAbsentees]), SUM('Fact Ethnicity FSM Absence'[Enrolments]))
+		formatString: 0.0%
+		lineageTag: 7402a632-ce94-4213-8e1e-4ef4f5ad9b1f
+
+	measure 'Ethnicity FSM Severe Absence Rate' = DIVIDE(SUM('Fact Ethnicity FSM Absence'[SevereAbsentees]), SUM('Fact Ethnicity FSM Absence'[Enrolments]))
+		formatString: 0.0%
+		lineageTag: 159e92ce-05d0-49b6-860f-3e18956a957f
+
+	measure 'FSM Eligible Persistent Absence Rate' =
+			CALCULATE(
+				DIVIDE(SUM('Fact Ethnicity FSM Absence'[PersistentAbsentees]), SUM('Fact Ethnicity FSM Absence'[Enrolments])),
+				REMOVEFILTERS('Dim School Type'),
+				'Fact Ethnicity FSM Absence'[FsmStatus] = "FSM eligible",
+				'Fact Ethnicity FSM Absence'[EthnicityMinor] = "Total",
+				'Dim School Type'[SchoolType] = "Total"
+			)
+		formatString: 0.0%
+		lineageTag: a1f10e02-3001-4001-9001-000000000001
+
+	measure 'FSM Not Eligible Persistent Absence Rate' =
+			CALCULATE(
+				DIVIDE(SUM('Fact Ethnicity FSM Absence'[PersistentAbsentees]), SUM('Fact Ethnicity FSM Absence'[Enrolments])),
+				REMOVEFILTERS('Dim School Type'),
+				'Fact Ethnicity FSM Absence'[FsmStatus] = "FSM not eligible",
+				'Fact Ethnicity FSM Absence'[EthnicityMinor] = "Total",
+				'Dim School Type'[SchoolType] = "Total"
+			)
+		formatString: 0.0%
+		lineageTag: a1f10e02-3002-4001-9001-000000000002
+
+	measure 'FSM Eligible Latest Persistent Absence Rate' =
+			VAR LatestYear =
+				CALCULATE(MAX('Dim Date'[AcademicYearSort]), ALL('Dim Date'))
+			RETURN
+				CALCULATE(
+					[FSM Eligible Persistent Absence Rate],
+					FILTER(ALL('Dim Date'), 'Dim Date'[AcademicYearSort] = LatestYear)
+				)
+		formatString: 0.0%
+		lineageTag: a1f10e02-3003-4001-9001-000000000003
+
+	measure 'FSM Not Eligible Latest Persistent Absence Rate' =
+			VAR LatestYear =
+				CALCULATE(MAX('Dim Date'[AcademicYearSort]), ALL('Dim Date'))
+			RETURN
+				CALCULATE(
+					[FSM Not Eligible Persistent Absence Rate],
+					FILTER(ALL('Dim Date'), 'Dim Date'[AcademicYearSort] = LatestYear)
+				)
+		formatString: 0.0%
+		lineageTag: a1f10e02-3004-4001-9001-000000000004
+
+	measure 'FSM Persistent Absence Gap' = [FSM Eligible Latest Persistent Absence Rate] - [FSM Not Eligible Latest Persistent Absence Rate]
+		formatString: 0.0%
+		lineageTag: a1f10e02-3005-4001-9001-000000000005
+
+	measure 'Ethnicity Persistent Absence Rate' =
+			CALCULATE(
+				DIVIDE(SUM('Fact Ethnicity FSM Absence'[PersistentAbsentees]), SUM('Fact Ethnicity FSM Absence'[Enrolments])),
+				'Fact Ethnicity FSM Absence'[FsmStatus] = "Total",
+				'Dim School Type'[SchoolType] = "Total"
+			)
+		formatString: 0.0%
+		lineageTag: a1f10e02-3006-4001-9001-000000000006
+
+	column AcademicYearKey
+		dataType: string
+		isHidden
+		lineageTag: 63e23363-05cd-4d80-9e59-b9b4a696da2c
+		summarizeBy: none
+		sourceColumn: AcademicYearKey
+
+	column AcademicYearSort
+		dataType: int64
+		isHidden
+		lineageTag: 46786fd2-abc8-49b7-b531-7e8205008d8d
+		summarizeBy: none
+		sourceColumn: AcademicYearSort
+
+	column SchoolTypeKey
+		dataType: string
+		isHidden
+		lineageTag: ba65b4a4-d82a-48b5-a00d-a52a2689e543
+		summarizeBy: none
+		sourceColumn: SchoolTypeKey
+
+	column EducationPhase
+		dataType: string
+		isHidden
+		lineageTag: d8bf751a-7231-4889-8099-88d8d405e66d
+		summarizeBy: none
+		sourceColumn: EducationPhase
+
+	column FsmStatus
+		dataType: string
+		lineageTag: 02def417-f233-4514-80a3-d5d1138f8afa
+		summarizeBy: none
+		sourceColumn: FsmStatus
+
+	column EthnicityMinor
+		dataType: string
+		lineageTag: 78746127-acf0-4c08-9b4a-9fa6b8e349d5
+		summarizeBy: none
+		sourceColumn: EthnicityMinor
+
+	column Enrolments
+		dataType: double
+		lineageTag: c352d670-fd12-4ca4-8712-b09da75f494a
+		summarizeBy: none
+		sourceColumn: Enrolments
+
+	column SessionsPossible
+		dataType: double
+		lineageTag: 8a76743d-90fe-4d18-a2f8-2441ba8604f7
+		summarizeBy: none
+		sourceColumn: SessionsPossible
+
+	column OverallAbsenceSessions
+		dataType: double
+		lineageTag: 5ac7bd3e-447c-4100-8002-8b381692174c
+		summarizeBy: none
+		sourceColumn: OverallAbsenceSessions
+
+	column OverallAbsenceRateSource
+		dataType: double
+		lineageTag: 7fdbb8fb-a23a-4837-ba3c-ff465fe551d1
+		summarizeBy: none
+		sourceColumn: OverallAbsenceRateSource
+
+	column AttendanceRateSource
+		dataType: double
+		lineageTag: 1d8c6024-4754-45d0-8af6-063e7e312f3d
+		summarizeBy: none
+		sourceColumn: AttendanceRateSource
+
+	column PersistentAbsentees
+		dataType: double
+		lineageTag: fe9808cd-814f-4abc-820e-6244006f926c
+		summarizeBy: none
+		sourceColumn: PersistentAbsentees
+
+	column PersistentAbsenceRateSource
+		dataType: double
+		lineageTag: b017d2d3-79cf-4d73-80d2-b21ddd48c698
+		summarizeBy: none
+		sourceColumn: PersistentAbsenceRateSource
+
+	column SevereAbsentees
+		dataType: double
+		lineageTag: b66737e0-ced6-4d9a-b801-1a4a2cad837f
+		summarizeBy: none
+		sourceColumn: SevereAbsentees
+
+	column SevereAbsenceRateSource
+		dataType: double
+		lineageTag: 2663d013-6352-4945-8deb-117e0a0124fe
+		summarizeBy: none
+		sourceColumn: SevereAbsenceRateSource
+
+	partition 'Fact Ethnicity FSM Absence' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(CuratedDataFolder & "\fact_ethnicity_fsm_absence.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Headers, {
+						{"AcademicYearKey", type text},
+						{"AcademicYearSort", Int64.Type},
+						{"SchoolTypeKey", type text},
+						{"EducationPhase", type text},
+						{"FsmStatus", type text},
+						{"EthnicityMinor", type text},
+						{"Enrolments", type number},
+						{"SessionsPossible", type number},
+						{"OverallAbsenceSessions", type number},
+						{"OverallAbsenceRateSource", type number},
+						{"AttendanceRateSource", type number},
+						{"PersistentAbsentees", type number},
+						{"PersistentAbsenceRateSource", type number},
+						{"SevereAbsentees", type number},
+						{"SevereAbsenceRateSource", type number}
+					}, "en-GB")
+				in
+					Typed
+

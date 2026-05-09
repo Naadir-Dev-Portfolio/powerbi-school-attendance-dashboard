@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "School Attendance Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "4295fe1a-0a5d-4c9e-a938-1ecf7d1896ea"
+  }
+}

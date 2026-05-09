@@ -1,0 +1,73 @@
+CharacteristicKey,CharacteristicGroup,Characteristic,CharacteristicGroupSort
+SEN provision|EHC plan,SEN provision,EHC plan,2
+SEN provision|No identified SEN,SEN provision,No identified SEN,2
+SEN provision|SEN support,SEN provision,SEN support,2
+SEN provision|Unclassified,SEN provision,Unclassified,2
+SEN primary need|Autistic spectrum disorder,SEN primary need,Autistic spectrum disorder,3
+SEN primary need|Down Syndrome,SEN primary need,Down Syndrome,3
+SEN primary need|Hearing impairment,SEN primary need,Hearing impairment,3
+SEN primary need|Moderate learning difficulty,SEN primary need,Moderate learning difficulty,3
+SEN primary need|Multi-sensory impairment,SEN primary need,Multi-sensory impairment,3
+SEN primary need|No SEN,SEN primary need,No SEN,3
+SEN primary need|No specialist assessment,SEN primary need,No specialist assessment,3
+SEN primary need|Other difficulty/disability,SEN primary need,Other difficulty/disability,3
+SEN primary need|Physical disability,SEN primary need,Physical disability,3
+SEN primary need|Profound and multiple learning difficulty,SEN primary need,Profound and multiple learning difficulty,3
+SEN primary need|Severe learning difficulty,SEN primary need,Severe learning difficulty,3
+SEN primary need|Social emotional and mental health,SEN primary need,Social emotional and mental health,3
+SEN primary need|Specific learning difficulty,SEN primary need,Specific learning difficulty,3
+SEN primary need|Speech language and communications needs,SEN primary need,Speech language and communications needs,3
+SEN primary need|Unclassified,SEN primary need,Unclassified,3
+SEN primary need|Visual impairment,SEN primary need,Visual impairment,3
+Sex|Female,Sex,Female,4
+Sex|Male,Sex,Male,4
+Sex|Sex unclassified,Sex,Sex unclassified,4
+Year group|Year 1 and below,Year group,Year 1 and below,6
+Year group|Year 10,Year group,Year 10,6
+Year group|Year 11,Year group,Year 11,6
+Year group|Year 12 and above,Year group,Year 12 and above,6
+Year group|Year 2,Year group,Year 2,6
+Year group|Year 3,Year group,Year 3,6
+Year group|Year 4,Year group,Year 4,6
+Year group|Year 5,Year group,Year 5,6
+Year group|Year 6,Year group,Year 6,6
+Year group|Year 7,Year group,Year 7,6
+Year group|Year 8,Year group,Year 8,6
+Year group|Year 9,Year group,Year 9,6
+Year group|Year not followed or missing,Year group,Year not followed or missing,6
+Year group|Year other,Year group,Year other,6
+Ethnicity Major|Any other ethnic group,Ethnicity Major,Any other ethnic group,99
+Ethnicity Major|Asian / Asian British,Ethnicity Major,Asian / Asian British,99
+Ethnicity Major|Black / African / Caribbean / Black British,Ethnicity Major,Black / African / Caribbean / Black British,99
+Ethnicity Major|Mixed / Multiple ethnic groups,Ethnicity Major,Mixed / Multiple ethnic groups,99
+Ethnicity Major|Unclassified,Ethnicity Major,Unclassified,99
+Ethnicity Major|White,Ethnicity Major,White,99
+Ethnicity Minor|African,Ethnicity Minor,African,99
+Ethnicity Minor|Any other Asian background,Ethnicity Minor,Any other Asian background,99
+Ethnicity Minor|Any other Black / African / Caribbean background,Ethnicity Minor,Any other Black / African / Caribbean background,99
+Ethnicity Minor|Any other Mixed / Multiple ethnic background,Ethnicity Minor,Any other Mixed / Multiple ethnic background,99
+Ethnicity Minor|Any other White background,Ethnicity Minor,Any other White background,99
+Ethnicity Minor|Any other ethnic group,Ethnicity Minor,Any other ethnic group,99
+Ethnicity Minor|Bangladeshi,Ethnicity Minor,Bangladeshi,99
+Ethnicity Minor|Caribbean,Ethnicity Minor,Caribbean,99
+Ethnicity Minor|Chinese,Ethnicity Minor,Chinese,99
+Ethnicity Minor|English / Welsh / Scottish / Northern Irish / British,Ethnicity Minor,English / Welsh / Scottish / Northern Irish / British,99
+Ethnicity Minor|Gypsy Roma,Ethnicity Minor,Gypsy Roma,99
+Ethnicity Minor|Indian,Ethnicity Minor,Indian,99
+Ethnicity Minor|Irish,Ethnicity Minor,Irish,99
+Ethnicity Minor|Irish traveller,Ethnicity Minor,Irish traveller,99
+Ethnicity Minor|Pakistani,Ethnicity Minor,Pakistani,99
+Ethnicity Minor|Unclassified,Ethnicity Minor,Unclassified,99
+Ethnicity Minor|White and Asian,Ethnicity Minor,White and Asian,99
+Ethnicity Minor|White and Black African,Ethnicity Minor,White and Black African,99
+Ethnicity Minor|White and Black Caribbean,Ethnicity Minor,White and Black Caribbean,99
+FSM|FSM eligible,FSM,FSM eligible,99
+FSM|FSM not eligible,FSM,FSM not eligible,99
+FSM|FSM unclassified,FSM,FSM unclassified,99
+FSM ever 6|FSM eligible in last 6 years,FSM ever 6,FSM eligible in last 6 years,99
+FSM ever 6|FSM not eligible in last 6 years,FSM ever 6,FSM not eligible in last 6 years,99
+FSM ever 6|FSM unclassified in last 6 years,FSM ever 6,FSM unclassified in last 6 years,99
+First language|First language known or believed to be English,First language,First language known or believed to be English,99
+First language|First language known or believed to be other than English,First language,First language known or believed to be other than English,99
+First language|First language unclassified,First language,First language unclassified,99
+Total|Total,Total,Total,99

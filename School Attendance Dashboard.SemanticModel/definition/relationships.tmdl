@@ -1,0 +1,52 @@
+relationship 'Fact Attendance Annual to Dim Date'
+	fromColumn: 'Fact Attendance Annual'.AcademicYearKey
+	toColumn: 'Dim Date'.AcademicYearKey
+
+relationship 'Fact Attendance Annual to Dim Geography'
+	fromColumn: 'Fact Attendance Annual'.GeographyKey
+	toColumn: 'Dim Geography'.GeographyKey
+
+relationship 'Fact Attendance Annual to Dim School Type'
+	fromColumn: 'Fact Attendance Annual'.SchoolTypeKey
+	toColumn: 'Dim School Type'.SchoolTypeKey
+
+relationship 'Fact Attendance Termly to Dim Term'
+	fromColumn: 'Fact Attendance Termly'.TermKey
+	toColumn: 'Dim Term'.TermKey
+
+relationship 'Dim Term to Dim Date'
+	fromColumn: 'Dim Term'.AcademicYearKey
+	toColumn: 'Dim Date'.AcademicYearKey
+
+relationship 'Fact Attendance Termly to Dim Geography'
+	fromColumn: 'Fact Attendance Termly'.GeographyKey
+	toColumn: 'Dim Geography'.GeographyKey
+
+relationship 'Fact Attendance Termly to Dim School Type'
+	fromColumn: 'Fact Attendance Termly'.SchoolTypeKey
+	toColumn: 'Dim School Type'.SchoolTypeKey
+
+relationship 'Fact Pupil Characteristic Absence to Dim Date'
+	fromColumn: 'Fact Pupil Characteristic Absence'.AcademicYearKey
+	toColumn: 'Dim Date'.AcademicYearKey
+
+relationship 'Fact Pupil Characteristic Absence to Dim Geography'
+	fromColumn: 'Fact Pupil Characteristic Absence'.GeographyKey
+	toColumn: 'Dim Geography'.GeographyKey
+
+relationship 'Fact Pupil Characteristic Absence to Dim School Type'
+	fromColumn: 'Fact Pupil Characteristic Absence'.SchoolTypeKey
+	toColumn: 'Dim School Type'.SchoolTypeKey
+
+relationship 'Fact Pupil Characteristic Absence to Dim Pupil Characteristic'
+	fromColumn: 'Fact Pupil Characteristic Absence'.CharacteristicKey
+	toColumn: 'Dim Pupil Characteristic'.CharacteristicKey
+
+relationship 'Fact Ethnicity FSM Absence to Dim Date'
+	fromColumn: 'Fact Ethnicity FSM Absence'.AcademicYearKey
+	toColumn: 'Dim Date'.AcademicYearKey
+
+relationship 'Fact Ethnicity FSM Absence to Dim School Type'
+	fromColumn: 'Fact Ethnicity FSM Absence'.SchoolTypeKey
+	toColumn: 'Dim School Type'.SchoolTypeKey
+

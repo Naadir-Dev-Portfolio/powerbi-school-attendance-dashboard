@@ -1,0 +1,155 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.8.0/schema.json",
+  "name": "12a1a207004e602ee509",
+  "position": {
+    "x": 76,
+    "y": 684.66666666666663,
+    "z": 10000,
+    "height": 35.333333333333336,
+    "width": 929.33333333333337,
+    "tabOrder": 9000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "This report was created by ",
+                    "textStyle": {
+                      "fontSize": "9pt"
+                    }
+                  },
+                  {
+                    "value": "Naadir ",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "9pt"
+                    }
+                  },
+                  {
+                    "value": "for developmental purposes. Data is sourced from official Department for Education public statistics on ",
+                    "textStyle": {
+                      "fontSize": "9pt"
+                    }
+                  },
+                  {
+                    "value": "Explore Education Statistics",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "9pt",
+                      "textDecoration": "underline",
+                      "color": "#094780"
+                    },
+                    "url": "https://explore-education-statistics.service.gov.uk/"
+                  },
+                  {
+                    "value": ".",
+                    "textStyle": {
+                      "fontSize": "9pt",
+                      "textDecoration": "underline",
+                      "color": "#094780"
+                    },
+                    "url": "https://explore-education-statistics.service.gov.uk/"
+                  },
+                  {
+                    "value": "     ",
+                    "textStyle": {
+                      "fontSize": "9pt",
+                      "color": "#094780"
+                    }
+                  },
+                  {
+                    "value": "              ",
+                    "textStyle": {
+                      "fontSize": "9pt"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "general": [
+        {
+          "properties": {
+            "keepLayerOrder": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "width": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualHeader": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

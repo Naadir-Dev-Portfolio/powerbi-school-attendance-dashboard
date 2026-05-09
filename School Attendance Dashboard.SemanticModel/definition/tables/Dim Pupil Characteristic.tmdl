@@ -1,0 +1,43 @@
+table 'Dim Pupil Characteristic'
+	lineageTag: 8f45ec56-1287-4b08-aedc-8bc2b279b464
+
+	column CharacteristicKey
+		dataType: string
+		isKey
+		lineageTag: 56597199-9c68-40b7-b2e8-8c63b4d6f9a6
+		summarizeBy: none
+		sourceColumn: CharacteristicKey
+
+	column CharacteristicGroup
+		dataType: string
+		lineageTag: bef5910f-87a8-4856-9f14-4d0a6621d443
+		summarizeBy: none
+		sourceColumn: CharacteristicGroup
+
+	column Characteristic
+		dataType: string
+		lineageTag: 22a436f1-aeab-4a6f-ad92-2350d7072885
+		summarizeBy: none
+		sourceColumn: Characteristic
+
+	column CharacteristicGroupSort
+		dataType: int64
+		lineageTag: b5ba0b72-521d-42c1-9c03-3bea92c79277
+		summarizeBy: none
+		sourceColumn: CharacteristicGroupSort
+
+	partition 'Dim Pupil Characteristic' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(CuratedDataFolder & "\dim_pupil_characteristic.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Headers, {
+						{"CharacteristicKey", type text},
+						{"CharacteristicGroup", type text},
+						{"Characteristic", type text},
+						{"CharacteristicGroupSort", Int64.Type}
+					}, "en-GB")
+				in
+					Typed
+

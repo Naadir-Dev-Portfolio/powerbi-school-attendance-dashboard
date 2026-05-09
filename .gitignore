@@ -1,0 +1,24 @@
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+# IDEs
+.vscode/
+.idea/
+*.swp
+# Logs
+*.log
+logs/
+# Secrets
+*.key
+*.pem
+secrets.json
+# Large raw data files (>100 MB — excluded from git, re-download via build script)
+Source Data/Raw/absence_by_pupil_characteristics.csv
