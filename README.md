@@ -8,6 +8,8 @@
 
 <p>Built for education analysts, local authority teams, and decision-makers who need a clear view of absence risk without manually combining DfE releases.</p>
 
+<p><strong>Technical documentation:</strong> <a href="https://naadir-dev-portfolio.github.io/powerbi-school-attendance-dashboard/">View the published report documentation</a></p>
+
 <p>
   <a href="#overview">Overview</a> |
   <a href="#what-problem-it-solves">What It Solves</a> |
