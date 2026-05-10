@@ -7,8 +7,8 @@
   "imgFeatured": "powerbi-school-attendance-dashboard-featured.png",
   "desc": "Education analytics dashboard using official DfE data to track school attendance trends, persistent absence rates, and which local authorities and pupil groups face the highest risk.",
   "demo": "https://app.powerbi.com/view?r=eyJrIjoiZTA1MzM4OGUtYTFkZi00ZmJmLWI5YmYtZGQ4ZTBiNDdkZTYxIiwidCI6IjFmMjM5NGIwLWJiZmUtNDZlYS04MDIyLTFhZjJiZjg4ZDBkZCJ9",
-  "code": "https://github.com/Naadir-Dev-Portfolio/powerbi-school-attendance-dashboard",
-  "details": "https://github.com/Naadir-Dev-Portfolio/powerbi-school-attendance-dashboard/blob/main/README.md",
+  "code": "https://github.com/Naadir-Dev-Portfolio/powerbi-school-attendance-dashboard/blob/main/README.md",
+  "details": "https://naadir-dev-portfolio.github.io/powerbi-school-attendance-dashboard/",
   "tags": [
     "Power BI",
     "DAX",
